@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-15T22:51:52+08:00</updated>
+  <updated>2012-06-15T22:52:59+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -103,15 +103,6 @@ rake的命令可以直接tab补全出来，我目前会用的只有</p>
 有时间再继续折腾，做完ComputerVision的实验报告，该做些正事了。</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Test blog]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/15/test-blog/"/>
-    <updated>2012-06-15T19:45:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/15/test-blog</id>
-    <content type="html"><![CDATA[<p>This is my first blog, using octopress</p>
 ]]></content>
   </entry>
   
