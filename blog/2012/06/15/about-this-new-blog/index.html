@@ -9,8 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="关于这个新博客 以前曾经试过很多博客，比如wordpress.com, livejournal，轻博客。曾经在很短的一段时间内还自己买域名搭过一个wordpress。但一直没有觉得很合适的解决方案。 一般都是遇到这些问题
-* 国内的博客访问速度可以，但是定制性一般都比较差，界面也没有特别让人满意的 &hellip;">
+  <meta name="description" content="前博客时代 以前曾经试过很多博客，比如wordpress.com, livejournal，轻博客。曾经在很短的一段时间内还自己买域名搭过一个wordpress。但一直没有觉得很合适的解决方案。 一般都是遇到这些问题 国内的博客访问速度可以，但是定制性一般都比较差，界面也没有特别让人满意的。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -119,42 +118,91 @@
   </header>
 
 
-<div class="entry-content"><p>关于这个新博客</p>
+<div class="entry-content"><h2>前博客时代</h2>
 
 <p>以前曾经试过很多博客，比如wordpress.com, livejournal，轻博客。曾经在很短的一段时间内还自己买域名搭过一个wordpress。但一直没有觉得很合适的解决方案。</p>
 
-<p>一般都是遇到这些问题
-* 国内的博客访问速度可以，但是定制性一般都比较差，界面也没有特别让人满意的。更别说什么支持粘贴代码的插件了
-* 国外的博客服务，常见的基本上逃不过被墙的危险，不被墙的访问速度也基本处于可用的边缘
-* 自己搭的博客在维护上比较麻烦，对于我这样把博客半做博客，半做笔记整理的用户，实在很难坚持维护下去</p>
+<p>一般都是遇到这些问题</p>
 
-<p>最近正好迷上了markdown的语法。最早是在sublime里面用，被markdown-preview的效果很是惊艳了一下，后来发现emacs, vim都早已有广泛支持。于是觉得拿来写最近做的人脸项目的文档。</p>
+<ul>
+<li>国内的博客访问速度可以，但是定制性一般都比较差，界面也没有特别让人满意的。更别说什么支持粘贴代码的插件了</li>
+<li>国外的博客服务，常见的基本上逃不过被墙的危险，不被墙的访问速度也基本处于可用的边缘</li>
+<li>自己搭的博客在维护上比较麻烦，对于我这样把博客半做博客，半做笔记整理的用户，实在很难坚持维护下去</li>
+</ul>
+
+
+<p>最近正好迷上了markdown的语法。最早是在sublime里面用，被markdown-preview的效果很是惊艳了一下，后来发现emacs, vim都早已有广泛支持。于是觉得拿来写最近做的人脸项目的文档正好合适。</p>
 
 <p>git和github也是用了有一段时间的东西了，github在国内一直能顺畅的访问，让人很是喜欢。</p>
+
+<h2>发现octopress</h2>
 
 <p>前几天看deep learning的时候看到了<a href="http://blog.echen.me/">echen的blog</a>，研究了一下发现是host在github上的，联想到最近<a href="http://blog.pluskid.org">pluskid</a>的博客也在迁移，用的也是一种静态博客的技术。好奇心及不折腾不舒服斯基的精神驱动下，觉得研究一下。没想到，还发现了其中的许多乐趣。</p>
 
 <p><a href="http://blog.echen.me/">echen的blog</a>用的是<a href="https://github.com/imathis/octopress">octopress</a>这个工具。octopress号称是为hacker而生的blog。当然没那么夸张啦。只是它用的一些东西是程序员日常工作中很熟悉的，因此程序猿用起来会觉得非常顺手~。</p>
 
-<p>octopress用到了这些东西
-* markdown的语法
-* git和github
-* ruby
-* jekyll这个静态html生成工具</p>
+<p>octopress用到了这些东西</p>
+
+<ul>
+<li>markdown的语法</li>
+<li>git和github</li>
+<li>ruby</li>
+<li>jekyll这个静态html生成工具</li>
+</ul>
+
+
+<p>使用octopress的好处</p>
+
+<ul>
+<li>版本管理</li>
+<li>可以选择自己喜欢的编辑器</li>
+<li>用markdown语法，简洁快速</li>
+</ul>
+
+
+<p>坏处估计是强烈依赖于github的服务，以及对新人的要求有点高了。</p>
 
 <p>octopress据说是jekyll的傻瓜版。如果以上几个东西你都很熟悉，那用起来应该会很顺手，如果像我只会前两样，基本的使用应该也挺顺畅。</p>
 
-<p>这里顺带列一下装octopress要用到的几个常用的链接
-* <a href="http://octopress.org/docs/setup">Initial setup</a> ruby的安装之内的东西，如果像我一样是在linux的包管理器里装的ruby，要记得装对应的ruby-dev包
-* <a href="http://octopress.org/docs/configuring">Basic Configuration</a> 基本的配置文件说明
-* <a href="http://octopress.org/docs/deploying">Deploying Octopress</a> 介绍如何把Octopress发布到github，我没仔细看说明就开始折腾，这里浪费了好一会
-* <a href="http://octopress.org/docs/blogging">Blogging Basics</a> 如何写博客</p>
+<h2>octopress的使用</h2>
+
+<p>这里顺带列一下装octopress要用到的几个常用的链接</p>
+
+<ul>
+<li><a href="http://octopress.org/docs/setup">Initial setup</a> ruby的安装之类的东西，如果像我一样是在linux的包管理器里装的ruby，要记得装对应的ruby-dev包</li>
+<li><a href="http://octopress.org/docs/configuring">Basic Configuration</a> 基本的配置文件说明</li>
+<li><a href="http://octopress.org/docs/deploying">Deploying Octopress</a> 介绍如何把Octopress发布到github，我没仔细看说明就开始折腾，这里浪费了好一会</li>
+<li><a href="http://octopress.org/docs/blogging">Blogging Basics</a> 如何写博客</li>
+</ul>
+
 
 <p>如果要修改默认的主题，可以参考github上的wiki页面<a href="https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes">List of themes</a>。</p>
 
 <p>octopress用的是Github提供的page服务，如果有兴趣，最后看看Github Pages的<a href="https://help.github.com/categories/20/articles">介绍</a></p>
 
-<p>所以总结一下，目前这个博客就是用github+octopress做的，每次用emacs写完markdown的文件后，在shell里面rake generate, rake push一下，就更新到博客里了。等有时间再研究下怎么能在emacs里更方便地预览和发布。</p>
+<p>所以总结一下，目前这个博客就是用github+octopress做的，每次用emacs写完markdown的文件后，在shell里面rake generate, rake push一下，就更新到博客里了。</p>
+
+<p>rake是ruby中类似makefile的工具，通过一个rakefile文件，就可以把博客维护要用到的一些命令都整合在一起，非常贴心。
+rake的命令可以直接tab补全出来，我目前会用的只有</p>
+
+<ul>
+<li>rake generate</li>
+<li>rake deploy</li>
+<li>rake gen_deploy</li>
+<li>rake new_post</li>
+<li>rake preview 这个可以动态更新，很方便</li>
+<li>rake setup_github_pages</li>
+</ul>
+
+
+<p>目前觉得还不顺手的地方有几个</p>
+
+<ul>
+<li>模板中的字体大小不怎么协调，正文好像太小了</li>
+<li>在emacs里发布不怎么方便，不过有preview功能，问题不大
+有时间再继续折腾，做完ComputerVision的实验报告，该做些正事了。</li>
+</ul>
+
 </div>
 
 
