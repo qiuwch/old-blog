@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-16T23:52:45+08:00</updated>
+  <updated>2012-06-16T23:56:47+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -29,7 +29,18 @@
     <link href="http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/"/>
     <updated>2012-06-15T23:13:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Computer Vision is a too big topic for me to talk about. Here I just want to share what I collected these two years when surfing this research field.</p>
+
+<p>Computer vision is always treated as the inverse problem of graphics. This is because the task of computer vision is to infer the meaning of the scene from the input image which is opposite to the graphics.</p>
+
+<p>This field is widely studied because of the unlimited potential of applications. Already widely used computer vision algorithms including</p>
+
+<ul>
+<li>Face detection</li>
+<li>Visual image search</li>
+<li>Image stitching</li>
+</ul>
+
 ]]></content>
   </entry>
   
