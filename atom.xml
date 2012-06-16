@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-17T00:30:18+08:00</updated>
+  <updated>2012-06-17T00:48:41+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Paper list for mclab hust]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust/"/>
+    <updated>2012-06-17T00:34:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="">Unsupervised Metric Fusion by Cross Diffusion</a> Bo Wang</li>
+<li><a href="">Fan Shape Model for Object Detection</a> Xinggang Wang</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Build the foundation of computer vision step by step]]></title>
