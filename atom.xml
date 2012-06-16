@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-17T00:24:07+08:00</updated>
+  <updated>2012-06-17T00:30:18+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Build the foundation of computer vision step by step]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step/"/>
+    <updated>2012-06-17T00:28:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step</id>
+    <content type="html"><![CDATA[<p>Xiang said my goal for computer vision is too ambitious and current research of cognitive science is useless for computer vision.
+I strongly disagree, and will try my best to build my knowledge base step by step here.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Useful dataset for computer vision researcher]]></title>
