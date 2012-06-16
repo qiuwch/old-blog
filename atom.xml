@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-17T00:48:59+08:00</updated>
+  <updated>2012-06-17T00:50:19+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -21,6 +21,7 @@
     <content type="html"><![CDATA[<ul>
 <li><a href="">Unsupervised Metric Fusion by Cross Diffusion</a> Bo Wang</li>
 <li><a href="">Fan Shape Model for Object Detection</a> Xinggang Wang</li>
+<li><a href="">Detecting Texts of Arbitrary Orientations in Natural Images</a> Cong Yao</li>
 </ul>
 
 ]]></content>
