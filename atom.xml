@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-15T22:52:59+08:00</updated>
+  <updated>2012-06-16T23:52:45+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Useful dataset for computer vision researcher]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher/"/>
+    <updated>2012-06-16T23:51:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher</id>
+    <content type="html"><![CDATA[<h2>Shape dataset</h2>
+
+<p><a href="http://visionlab.uta.edu/shape_data.htm">MPEG7 shape</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Research of Computer Vision]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/"/>
+    <updated>2012-06-15T23:13:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[About this new blog]]></title>
