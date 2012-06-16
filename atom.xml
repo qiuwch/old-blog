@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-17T00:22:54+08:00</updated>
+  <updated>2012-06-17T00:24:07+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -20,16 +20,25 @@
     <id>http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher</id>
     <content type="html"><![CDATA[<h2>Shape dataset</h2>
 
-<p><a href="http://visionlab.uta.edu/shape_data.htm">MPEG7 shape</a></p>
+<ul>
+<li><a href="http://visionlab.uta.edu/shape_data.htm">MPEG7 shape</a></li>
+</ul>
+
 
 <h2>Face dataset</h2>
 
-<p><a href="http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html">At&amp;T face image</a></p>
+<ul>
+<li><a href="http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html">At&amp;T face image</a></li>
+</ul>
+
 
 <h2>Natural dataset</h2>
 
-<p><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Caltech 101</a>
-<a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></p>
+<ul>
+<li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Caltech 101</a></li>
+<li><a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
