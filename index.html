@@ -9,9 +9,10 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="关于近期工作的吐槽 转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的 motion segmentation
-人脸识别
-data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课 晚上和bai为了暑假课程的事情争了很久， &hellip;">
+  <meta name="description" content="There is a trouble puzzled me for a long time. I implemented a simple matrix class. template
+class matrix_t
+{
+public: matrix_t(int rows, int cols, T &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -93,6 +94,191 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
     <div class="row-fluid">
       <div class="span9">
   
+  
+  
+    <article>
+      
+  <header class="page-header">
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/18/c-plus-plus-memory-leak-problem/">C++ Memory Leak Problem</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-18T16:02:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There is a trouble puzzled me for a long time.</p>
+
+<p>I implemented a simple matrix class.</p>
+
+<p>template<class T>
+class matrix_t
+{
+public:</p>
+
+<pre><code>matrix_t(int rows, int cols, T *p = 0)
+{
+    std::cout &lt;&lt; "construct." &lt;&lt; std::endl;
+    this-&gt;width_ = cols;
+    this-&gt;height_ = rows;
+    this-&gt;len_ = cols * rows;
+    this-&gt;p_ = new T[len_];
+    memset(this-&gt;p_, 0, sizeof(T) * len_); // Important!
+    if (p != 0)
+    {
+        for (int i = 0; i&lt;len_; i++) this-&gt;p_[i] = p[i];
+    }
+}
+</code></pre>
+
+<p>};</p>
+
+<p>which is really simple and nothing special (maybo not elegant at all :P).</p>
+
+<p>But when I try to use, I found when I use syntax like:</p>
+
+<p>matirx_t a(10, 10);
+matrix_t b = a;</p>
+
+<p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
+
+<p>when I finished a copy constructor, more problem came out.</p>
+
+<p>When I try
+matrix_t a(10, 10);
+matrix_t b(10, 10);
+b = a;</p>
+
+<p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
+for detail explanation.</p>
+
+<p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header class="page-header">
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/18/how-to-use-valgrind/">How to Use Valgrind</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-18T10:45:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header class="page-header">
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/17/project-report/">Project Report</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-17T19:39:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>meeno
+短信便签</p>
+
+<p>自动短信筛选
+号码和内容</p>
+
+<p>micro starwar</p>
+
+<p>Tuudo
+滑动
+any.do</p>
+
+<p>wifile
+能够建立热点
+没有客户端
+整块的背景图片</p>
+
+<p>Check of Fuubo
+速度太慢</p>
+
+<p>图片墙
+网速，版权
+核心问题
+PM要懂技术
+轻博客</p>
+
+<p>Euuro</p>
+
+<p>intra分享</p>
+
+<p>kong miao</p>
+
+<p>nap time</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -475,23 +661,23 @@ rake的命令可以直接tab补全出来，我目前会用的只有</p>
     <li class="nav-header">Recent Posts</li>
     
       <li class="post">
+        <a href="/blog/2012/06/18/c-plus-plus-memory-leak-problem/">C++ memory leak problem</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/18/how-to-use-valgrind/">how to use valgrind</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/17/project-report/">project report</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/06/17/about-recent-work/">about recent work</a>
       </li>
     
       <li class="post">
         <a href="/blog/2012/06/17/paper-list-for-mclab-hust/">Paper list for mclab hust</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step/">Build the foundation of computer vision step by step</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/06/16/useful-dataset-for-computer-vision-researcher/">Useful dataset for computer vision researcher</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/06/15/research-of-computer-vision/">Research of Computer Vision</a>
       </li>
     
   </ul>

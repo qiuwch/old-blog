@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Research of Computer Vision - Review of AI</title>
+  <title>C++ memory leak problem - Review of AI</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="Computer Vision is a too big topic for me to talk about. Here I just want to share what I collected these two years when surfing this research field &hellip;">
+  <meta name="description" content="There is a trouble puzzled me for a long time. I implemented a simple matrix class. template
+class matrix_t
+{
+public: matrix_t(int rows, int cols, T &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision">
+  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -95,7 +98,7 @@
   
   <header class="page-header">
     
-      <h1 class="entry-title">Research of Computer Vision</h1>
+      <h1 class="entry-title">C++ Memory Leak Problem</h1>
     
     
       <p class="meta">
@@ -111,25 +114,59 @@
   
 
 
-<time datetime="2012-06-15T23:13:00+08:00" pubdate data-updated="true">Jun 15<span>th</span>, 2012</time>
+<time datetime="2012-06-18T16:02:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Computer Vision is a too big topic for me to talk about. Here I just want to share what I collected these two years when surfing this research field.</p>
+<div class="entry-content"><p>There is a trouble puzzled me for a long time.</p>
 
-<p>Computer vision is always treated as the inverse problem of graphics. This is because the task of computer vision is to infer the meaning of the scene from the input image which is opposite to the graphics.</p>
+<p>I implemented a simple matrix class.</p>
 
-<p>This field is widely studied because of the unlimited potential of applications. Already widely used computer vision algorithms including</p>
+<p>template<class T>
+class matrix_t
+{
+public:</p>
 
-<ul>
-<li>Face detection</li>
-<li>Visual image search</li>
-<li>Image stitching</li>
-</ul>
+<pre><code>matrix_t(int rows, int cols, T *p = 0)
+{
+    std::cout &lt;&lt; "construct." &lt;&lt; std::endl;
+    this-&gt;width_ = cols;
+    this-&gt;height_ = rows;
+    this-&gt;len_ = cols * rows;
+    this-&gt;p_ = new T[len_];
+    memset(this-&gt;p_, 0, sizeof(T) * len_); // Important!
+    if (p != 0)
+    {
+        for (int i = 0; i&lt;len_; i++) this-&gt;p_[i] = p[i];
+    }
+}
+</code></pre>
 
+<p>};</p>
+
+<p>which is really simple and nothing special (maybo not elegant at all :P).</p>
+
+<p>But when I try to use, I found when I use syntax like:</p>
+
+<p>matirx_t a(10, 10);
+matrix_t b = a;</p>
+
+<p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
+
+<p>when I finished a copy constructor, more problem came out.</p>
+
+<p>When I try
+matrix_t a(10, 10);
+matrix_t b(10, 10);
+b = a;</p>
+
+<p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
+for detail explanation.</p>
+
+<p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
 </div>
 
 
@@ -152,7 +189,7 @@
   
 
 
-<time datetime="2012-06-15T23:13:00+08:00" pubdate data-updated="true">Jun 15<span>th</span>, 2012</time>
+<time datetime="2012-06-18T16:02:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
       
 
 
@@ -160,7 +197,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/" >Tweet</a>
   
   
   
@@ -177,14 +214,10 @@
     <ul class="pager">
       
       <li class="previous"><a class="basic-alignment left"
-        href="/blog/2012/06/15/about-this-new-blog/" title="Previous Post:
-        About this new blog">&laquo; About this new blog</a></li>
+        href="/blog/2012/06/18/how-to-use-valgrind/" title="Previous Post:
+        how to use valgrind">&laquo; how to use valgrind</a></li>
       
       <li><a href="/blog/archives">Blog Archives</a></li>
-      
-      <li class="next"><a class="basic-alignment right" href="/blog/2012/06/16/useful-dataset-for-computer-vision-researcher/"
-        title="Next Post: Useful dataset for computer vision researcher">Useful dataset for computer vision researcher
-        &raquo;</a></li>
       
     </ul>
   </footer>
@@ -265,8 +298,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/';
-        var disqus_url = 'http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/';
+        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/';
+        var disqus_url = 'http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/';
         var disqus_script = 'embed.js';
       
     (function () {
