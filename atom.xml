@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Review of AI]]></title>
+  <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
+  <link href="http://qiuwch.github.com/"/>
+  <updated>2012-06-28T09:24:41+08:00</updated>
+  <id>http://qiuwch.github.com/</id>
+  <author>
+    <name><![CDATA[Weichao Qiu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[News:google deep learning]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/27/news-google-deep-learning/"/>
+    <updated>2012-06-27T15:43:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/27/news-google-deep-learning</id>
+    <content type="html"><![CDATA[<p>google use deep learning to develop a neural network which can be used to identify cat from youtube video.</p>
+
+<p><a href="http://www.wired.com/wiredscience/2012/06/google-x-neural-network/">link</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Face recognition]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/26/face-recognition/"/>
+    <updated>2012-06-26T21:05:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/26/face-recognition</id>
+    <content type="html"><![CDATA[<p>Fundamental question can also be fundamental problem.</p>
+
+<p>Theoretical author
+* <a href="author:pawan_sinha">Pawan Sinha</a>
+* <a href="author:thomaso_poggio">Thomaso Poggio</a>
+Do human threat face and object recognition the same problem?
+Can human explictly model the 3d model of face.</p>
+
+<p>Experimental result
+<a href="paper:Attribute%20and%20Simile%20Classifiers%20for%20Face%20Verification">Human performance</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reading note for vision (david marr)]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/25/reading-note-for-vision-david-marr/"/>
+    <updated>2012-06-25T22:38:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/25/reading-note-for-vision-david-marr</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Interactive python gui programming]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/25/interactive-python-gui-programming/"/>
+    <updated>2012-06-25T21:37:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/25/interactive-python-gui-programming</id>
+    <content type="html"><![CDATA[<p>I want an interactive gui programming environment for a long time.
+Once I tried python-qt, but this seems not very friendly and elegant.</p>
+
+<p>Today I want to do some computer vision experiment, and try to do some spotlight effect. After googling for a while, I found this stackoverflow post <a href="http://stackoverflow.com/questions/115495/is-python-any-good-for-gui-development">Is Python any good for GUI development?</a>. wxPython seems more simple and elegant than python-qt.</p>
+
+<p>And some demos and tutorials are available. eg:
+* <a href="http://zetcode.com/wxpython/">wxPython tutorial</a>
+* <a href="http://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/">wxPython demos and samples</a></p>
+
+<p>Which is helpful to get a brief view and have a quick start.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Track lost object]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/23/track-lost-object/"/>
+    <updated>2012-06-23T23:21:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/23/track-lost-object</id>
+    <content type="html"><![CDATA[<p>又被盗一辆自行车,
+对于这种情况应该能够有防盗器解决这种问题</p>
+
+<p>主动的方案例如GPS基站，可以提供准确的位置，但是必须时刻保持待机状态，除非像汽车电瓶供电这种特殊状态，其他情况下很难保证长时间的使用。可以实用的方案可能只有被动定位，在物体丢失时，为了追踪被盗物体，物体主人愿意花比较高的代价。因此如果才从租赁搜索器材的方式是可行的。类似定向越野的方式即可。不是rfid是否能满足这种使用需求。</p>
+
+<p>或者也可以通过平时休眠，通过主动唤醒的方式进行追踪。</p>
+
+<p>产品应用范围包括走失小孩的追踪，手机的追踪，被盗自行车的追踪。危险设备，例如枪支的追踪等。</p>
+
+<p>目前淘宝上的产品主要是使用GPS的方式追踪，对于电量的问题都无法解决。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[C++ memory leak problem]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/"/>
+    <updated>2012-06-18T16:02:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem</id>
+    <content type="html"><![CDATA[<p>There is a trouble puzzled me for a long time.</p>
+
+<p>I implemented a simple matrix class.</p>
+
+<p>template<class T>
+class matrix_t
+{
+public:</p>
+
+<pre><code>matrix_t(int rows, int cols, T *p = 0)
+{
+    std::cout &lt;&lt; "construct." &lt;&lt; std::endl;
+    this-&gt;width_ = cols;
+    this-&gt;height_ = rows;
+    this-&gt;len_ = cols * rows;
+    this-&gt;p_ = new T[len_];
+    memset(this-&gt;p_, 0, sizeof(T) * len_); // Important!
+    if (p != 0)
+    {
+        for (int i = 0; i&lt;len_; i++) this-&gt;p_[i] = p[i];
+    }
+}
+</code></pre>
+
+<p>};</p>
+
+<p>which is really simple and nothing special (maybo not elegant at all :P).</p>
+
+<p>But when I try to use, I found when I use syntax like:</p>
+
+<p>matirx_t a(10, 10);
+matrix_t b = a;</p>
+
+<p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
+
+<p>when I finished a copy constructor, more problem came out.</p>
+
+<p>When I try
+matrix_t a(10, 10);
+matrix_t b(10, 10);
+b = a;</p>
+
+<p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
+for detail explanation.</p>
+
+<p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[how to use valgrind]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/"/>
+    <updated>2012-06-18T10:45:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[project report]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/17/project-report/"/>
+    <updated>2012-06-17T19:39:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/17/project-report</id>
+    <content type="html"><![CDATA[<p>meeno
+短信便签</p>
+
+<p>自动短信筛选
+号码和内容</p>
+
+<p>micro starwar</p>
+
+<p>Tuudo
+滑动
+any.do</p>
+
+<p>wifile
+能够建立热点
+没有客户端
+整块的背景图片</p>
+
+<p>Check of Fuubo
+速度太慢</p>
+
+<p>图片墙
+网速，版权
+核心问题
+PM要懂技术
+轻博客</p>
+
+<p>Euuro</p>
+
+<p>intra分享</p>
+
+<p>kong miao</p>
+
+<p>nap time</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[about recent work]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/17/about-recent-work/"/>
+    <updated>2012-06-17T03:30:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/17/about-recent-work</id>
+    <content type="html"><![CDATA[<h2>关于近期工作的吐槽</h2>
+
+<p>转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的</p>
+
+<ul>
+<li>motion segmentation</li>
+<li>人脸识别</li>
+<li>data skeleton</li>
+</ul>
+
+
+<p>倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课</p>
+
+<p>晚上和bai为了暑假课程的事情争了很久，他说得有几点我是认同的</p>
+
+<ul>
+<li>想做的太大太远</li>
+<li>对于研究生时间不允许，要尽快出成果</li>
+</ul>
+
+
+<h2>未来的时间安排</h2>
+
+<p>刚进实验室的时候总还觉得时间很多，可是转眼研究生一年级就快结束了．</p>
+
+<p>下学期开学以后马上要忙的事是研究生的开题和12月的GRE．开题如果还拿不出一个很明确的方向的话，到时候又会非常的被动．</p>
+
+<p>因此暑假的工作显得尤其重要，除了抽空背背单词，其他的时间应该都是在想idea，做实验，灌水．</p>
+
+<p>其实计算机视觉远没有当初想的那么神秘和神圣，真想做科研还是去做认知科学的好．可是就如bai说的，现在根本还没有那个资本．连bai这样的学者都不能满意的学生，又如何去顶级的学术机构做科研的．不如花这两个月的时间，为自己积累些说话的资本，后期的发展也会顺一些．</p>
+
+<p>ICPR没中其实完全没有出乎意料，临时赶出来的第一稿的draft要是能中才意外了．不过从实验室中的三篇来看，似乎创新性都不高，灌水并没有想象中的困难．</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paper list for mclab hust]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust/"/>
+    <updated>2012-06-17T00:34:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="">Unsupervised Metric Fusion by Cross Diffusion</a> Bo Wang</li>
+<li><a href="">Fan Shape Model for Object Detection</a> Xinggang Wang</li>
+<li><a href="">Detecting Texts of Arbitrary Orientations in Natural Images</a> Cong Yao</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Build the foundation of computer vision step by step]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step/"/>
+    <updated>2012-06-17T00:28:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step</id>
+    <content type="html"><![CDATA[<p>Xiang said my goal for computer vision is too ambitious and current research of cognitive science is useless for computer vision.
+I strongly disagree, and will try my best to build my knowledge base step by step here.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Useful dataset for computer vision researcher]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher/"/>
+    <updated>2012-06-16T23:51:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher</id>
+    <content type="html"><![CDATA[<h2>Shape dataset</h2>
+
+<ul>
+<li><a href="http://visionlab.uta.edu/shape_data.htm">MPEG7 shape</a></li>
+</ul>
+
+
+<h2>Face dataset</h2>
+
+<ul>
+<li><a href="http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html">At&amp;T face image</a></li>
+</ul>
+
+
+<h2>Natural dataset</h2>
+
+<ul>
+<li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Caltech 101</a></li>
+<li><a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Research of Computer Vision]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/"/>
+    <updated>2012-06-15T23:13:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision</id>
+    <content type="html"><![CDATA[<p>Computer Vision is a too big topic for me to talk about. Here I just want to share what I collected these two years when surfing this research field.</p>
+
+<p>Computer vision is always treated as the inverse problem of graphics. This is because the task of computer vision is to infer the meaning of the scene from the input image which is opposite to the graphics.</p>
+
+<p>This field is widely studied because of the unlimited potential of applications. Already widely used computer vision algorithms including</p>
+
+<ul>
+<li>Face detection</li>
+<li>Visual image search</li>
+<li>Image stitching</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[About this new blog]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/15/about-this-new-blog/"/>
+    <updated>2012-06-15T22:14:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/15/about-this-new-blog</id>
+    <content type="html"><![CDATA[<h2>前博客时代</h2>
+
+<p>以前曾经试过很多博客，比如wordpress.com, livejournal，轻博客。曾经在很短的一段时间内还自己买域名搭过一个wordpress。但一直没有觉得很合适的解决方案。</p>
+
+<p>一般都是遇到这些问题</p>
+
+<ul>
+<li>国内的博客访问速度可以，但是定制性一般都比较差，界面也没有特别让人满意的。更别说什么支持粘贴代码的插件了</li>
+<li>国外的博客服务，常见的基本上逃不过被墙的危险，不被墙的访问速度也基本处于可用的边缘</li>
+<li>自己搭的博客在维护上比较麻烦，对于我这样把博客半做博客，半做笔记整理的用户，实在很难坚持维护下去</li>
+</ul>
+
+
+<p>最近正好迷上了markdown的语法。最早是在sublime里面用，被markdown-preview的效果很是惊艳了一下，后来发现emacs, vim都早已有广泛支持。于是觉得拿来写最近做的人脸项目的文档正好合适。</p>
+
+<p>git和github也是用了有一段时间的东西了，github在国内一直能顺畅的访问，让人很是喜欢。</p>
+
+<h2>发现octopress</h2>
+
+<p>前几天看deep learning的时候看到了<a href="http://blog.echen.me/">echen的blog</a>，研究了一下发现是host在github上的，联想到最近<a href="http://blog.pluskid.org">pluskid</a>的博客也在迁移，用的也是一种静态博客的技术。好奇心及不折腾不舒服斯基的精神驱动下，觉得研究一下。没想到，还发现了其中的许多乐趣。</p>
+
+<p><a href="http://blog.echen.me/">echen的blog</a>用的是<a href="https://github.com/imathis/octopress">octopress</a>这个工具。octopress号称是为hacker而生的blog。当然没那么夸张啦。只是它用的一些东西是程序员日常工作中很熟悉的，因此程序猿用起来会觉得非常顺手~。</p>
+
+<p>octopress用到了这些东西</p>
+
+<ul>
+<li>markdown的语法</li>
+<li>git和github</li>
+<li>ruby</li>
+<li>jekyll这个静态html生成工具</li>
+</ul>
+
+
+<p>使用octopress的好处</p>
+
+<ul>
+<li>版本管理</li>
+<li>可以选择自己喜欢的编辑器</li>
+<li>用markdown语法，简洁快速</li>
+</ul>
+
+
+<p>坏处估计是强烈依赖于github的服务，以及对新人的要求有点高了。</p>
+
+<p>octopress据说是jekyll的傻瓜版。如果以上几个东西你都很熟悉，那用起来应该会很顺手，如果像我只会前两样，基本的使用应该也挺顺畅。</p>
+
+<h2>octopress的使用</h2>
+
+<p>这里顺带列一下装octopress要用到的几个常用的链接</p>
+
+<ul>
+<li><a href="http://octopress.org/docs/setup">Initial setup</a> ruby的安装之类的东西，如果像我一样是在linux的包管理器里装的ruby，要记得装对应的ruby-dev包</li>
+<li><a href="http://octopress.org/docs/configuring">Basic Configuration</a> 基本的配置文件说明</li>
+<li><a href="http://octopress.org/docs/deploying">Deploying Octopress</a> 介绍如何把Octopress发布到github，我没仔细看说明就开始折腾，这里浪费了好一会</li>
+<li><a href="http://octopress.org/docs/blogging">Blogging Basics</a> 如何写博客</li>
+</ul>
+
+
+<p>如果要修改默认的主题，可以参考github上的wiki页面<a href="https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes">List of themes</a>。</p>
+
+<p>octopress用的是Github提供的page服务，如果有兴趣，最后看看Github Pages的<a href="https://help.github.com/categories/20/articles">介绍</a></p>
+
+<p>所以总结一下，目前这个博客就是用github+octopress做的，每次用emacs写完markdown的文件后，在shell里面rake generate, rake push一下，就更新到博客里了。</p>
+
+<p>rake是ruby中类似makefile的工具，通过一个rakefile文件，就可以把博客维护要用到的一些命令都整合在一起，非常贴心。
+rake的命令可以直接tab补全出来，我目前会用的只有</p>
+
+<ul>
+<li>rake setup_git_pages
+格式是git@github.com:qiuwch/qiuwch.github.com.git</li>
+<li>rake generate</li>
+<li>rake deploy</li>
+<li>rake gen_deploy</li>
+<li>rake new_post</li>
+<li>rake preview 这个可以动态更新，很方便</li>
+<li>rake setup_github_pages</li>
+</ul>
+
+
+<p>目前觉得还不顺手的地方有几个</p>
+
+<ul>
+<li>模板中的字体大小不怎么协调，正文好像太小了</li>
+<li>在emacs里发布不怎么方便，不过有preview功能，问题不大
+有时间再继续折腾，做完ComputerVision的实验报告，该做些正事了。</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
