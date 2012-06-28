@@ -62,6 +62,8 @@ octopress用的是Github提供的page服务，如果有兴趣，最后看看Gith
 rake是ruby中类似makefile的工具，通过一个rakefile文件，就可以把博客维护要用到的一些命令都整合在一起，非常贴心。
 rake的命令可以直接tab补全出来，我目前会用的只有
 
+* rake setup_git_pages
+格式是git@github.com:qiuwch/qiuwch.github.com.git
 * rake generate
 * rake deploy
 * rake gen_deploy
