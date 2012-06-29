@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-28T17:40:29+08:00</updated>
+  <updated>2012-06-29T09:36:09+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -31,14 +31,23 @@
     <id>http://qiuwch.github.com/blog/2012/06/26/face-recognition</id>
     <content type="html"><![CDATA[<p>Fundamental question can also be fundamental problem.</p>
 
-<p>Theoretical author
-* <a href="author:pawan_sinha">Pawan Sinha</a>
-* <a href="author:thomaso_poggio">Thomaso Poggio</a>
-Do human threat face and object recognition the same problem?
+<p>Theoretical author</p>
+
+<ul>
+<li><a href="author:pawan_sinha">Pawan Sinha</a></li>
+<li><a href="author:thomaso_poggio">Thomaso Poggio</a></li>
+</ul>
+
+
+<p>Do human threat face and object recognition the same problem?
 Can human explictly model the 3d model of face.</p>
 
-<p>Experimental result
-<a href="paper:Attribute%20and%20Simile%20Classifiers%20for%20Face%20Verification">Human performance</a></p>
+<p>Experimental result</p>
+
+<ul>
+<li><a href="paper:Attribute%20and%20Simile%20Classifiers%20for%20Face%20Verification">Human performance</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -61,9 +70,13 @@ Once I tried python-qt, but this seems not very friendly and elegant.</p>
 
 <p>Today I want to do some computer vision experiment, and try to do some spotlight effect. After googling for a while, I found this stackoverflow post <a href="http://stackoverflow.com/questions/115495/is-python-any-good-for-gui-development">Is Python any good for GUI development?</a>. wxPython seems more simple and elegant than python-qt.</p>
 
-<p>And some demos and tutorials are available. eg:
-* <a href="http://zetcode.com/wxpython/">wxPython tutorial</a>
-* <a href="http://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/">wxPython demos and samples</a></p>
+<p>And some demos and tutorials are available. eg:</p>
+
+<ul>
+<li><a href="http://zetcode.com/wxpython/">wxPython tutorial</a></li>
+<li><a href="http://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/">wxPython demos and samples</a></li>
+</ul>
+
 
 <p>Which is helpful to get a brief view and have a quick start.</p>
 ]]></content>
@@ -377,14 +390,16 @@ I strongly disagree, and will try my best to build my knowledge base step by ste
 rake的命令可以直接tab补全出来，我目前会用的只有</p>
 
 <ul>
-<li>rake setup_git_pages
-格式是git@github.com:qiuwch/qiuwch.github.com.git</li>
-<li>rake generate</li>
-<li>rake deploy</li>
+<li>rake setup_git_pages<br/>
+格式是git@github.com:qiuwch/qiuwch.github.com.git, 初始化git pages</li>
+<li>rake generate<br/>
+生成Jekelly page</li>
+<li>rake deploy<br/>
+This seems not working</li>
+<li>rake push</li>
 <li>rake gen_deploy</li>
 <li>rake new_post</li>
 <li>rake preview 这个可以动态更新，很方便</li>
-<li>rake setup_github_pages</li>
 </ul>
 
 
