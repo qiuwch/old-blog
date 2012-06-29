@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-29T09:52:31+08:00</updated>
+  <updated>2012-06-29T10:29:00+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AAAI membership]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/29/aaai-membership/"/>
+    <updated>2012-06-29T10:20:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/29/aaai-membership</id>
+    <content type="html"><![CDATA[<p>Just got one year membership of AAAI.</p>
+
+<p>This is because the popular online open course &#8220;Introduction to artificial intelligence&#8221; taught by <a href="author:peter_norvig">Peter Norvig</a> and <a href="author:sebastian_thurun">Sebastian Thurun</a>. Before the beginning of this course, I saw a post told that those students who rank 10% of this course will be give AAAI membership for reward. I just took this as a rumor and use this to encourage myself to study hard in this course. Now months after this course, when I thought this is a real rumor, I got a mail told me that I am given a one year membership. That&#8217;s really a good gift, lol.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reading list for july]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/29/reading-list-for-july/"/>
+    <updated>2012-06-29T10:19:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/29/reading-list-for-july</id>
+    <content type="html"><![CDATA[<h2>Book</h2>
+
+<ul>
+<li>David Marr - Vision</li>
+</ul>
+
+
+<h2>Paper</h2>
+
+<ul>
+<li>Random projection tree</li>
+<li>Deep learning for face parsing</li>
+<li>Skim mclab paper</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[News:google deep learning]]></title>
