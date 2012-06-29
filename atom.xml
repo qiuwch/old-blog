@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-29T10:29:00+08:00</updated>
+  <updated>2012-06-29T10:52:09+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Difference between cygwin and mingw]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/29/difference-between-cygwin-and-mingw/"/>
+    <updated>2012-06-29T10:44:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/29/difference-between-cygwin-and-mingw</id>
+    <content type="html"><![CDATA[<p>This is not very related to the topic of this blog. But I often came across with problem to distinguish those two, so I left the anwser here for reference.</p>
+
+<p>This answer is from <a href="http://stackoverflow.com/questions/771756/what-is-the-difference-between-cygwin-and-mingw">stackoverflow</a></p>
+
+<blockquote><p>cygwin is an attempt to create a complete UNIX/POSIX environment on Windows. To do this it uses various DLLs that unfortunately have a user-unfriendly license. MinGW is a C/C++ compiler suite which allows you to create Windows executables without dependancy on such DLLs - you only need the normal MSVC runtimes.</p>
+
+<p>You can also get a small UNIX/POSIX like environment, compiled with MinGW called MSYS. It doesn&#8217;t have anywhere near all the features of Cygwin, but is ideal for programmers wanting to use MinGW.</p></blockquote>
+
+<p>An alternative answer</p>
+
+<blockquote><p>Fairly simple:</p>
+
+<p>Compile something in Cygwin and you are compiling it for Cygwin.
+Compile something in MingW and you are compiling it for Windows.
+Cygwin is good when your app absolutely needs a POSIX environment to run - it is sometimes easier to port something to Cygwin than it is to port it to Windows, because Cygwin is a layer on top of Windows that emulates a POSIX environment. If you compile something for Cygwin then it will need to be run within the Cygwin environment, as provided by cygwin1.dll. For portability, you could distribute this dll with your project, if you were willing to comply with the relevant license.</p>
+
+<p>MingW is a Windows port of the GNU compiler tools, like GCC, Make, Bash, etc, which run directly in Windows without any emulation layer. By default it will compile to a native Win32 target, complete with .exe and .dll files, though you could also cross-compile with the right settings. It is an alternative to Microsoft Visual C compiler and its associated linking/make tools in a way.</p></blockquote>
+
+<p>In conclusion:</p>
+
+<ul>
+<li>cygwin emulates posix system</li>
+<li>mingw compiles linux code in windows</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AAAI membership]]></title>
