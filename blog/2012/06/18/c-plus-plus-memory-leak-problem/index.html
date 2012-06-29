@@ -9,10 +9,25 @@
   <meta name="author" content="Weichao Qiu">
 
   
-  <meta name="description" content="There is a trouble puzzled me for a long time. I implemented a simple matrix class. template
-class matrix_t
-{
-public: matrix_t(int rows, int cols, T &hellip;">
+  <meta name="description" content="There is a trouble puzzled me for a long time. I implemented a simple matrix class. 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+template&lt;class T& &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -97,27 +112,44 @@ public: matrix_t(int rows, int cols, T &hellip;">
 
 <p>I implemented a simple matrix class.</p>
 
-<p>template<class T>
-class matrix_t
-{
-public:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">matrix_t</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'><span class="k">public</span><span class="o">:</span>
+</span><span class='line'>  <span class="n">matrix_t</span><span class="p">(</span><span class="kt">int</span> <span class="n">rows</span><span class="p">,</span> <span class="kt">int</span> <span class="n">cols</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">{</span>
+</span><span class='line'>      <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;construct.&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">width_</span> <span class="o">=</span> <span class="n">cols</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">height_</span> <span class="o">=</span> <span class="n">rows</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">len_</span> <span class="o">=</span> <span class="n">cols</span> <span class="o">*</span> <span class="n">rows</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">[</span><span class="n">len_</span><span class="p">];</span>
+</span><span class='line'>      <span class="n">memset</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="o">*</span> <span class="n">len_</span><span class="p">);</span> <span class="c1">// Important!</span>
+</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">{</span>
+</span><span class='line'>          <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<pre><code>matrix_t(int rows, int cols, T *p = 0)
-{
-    std::cout &lt;&lt; "construct." &lt;&lt; std::endl;
-    this-&gt;width_ = cols;
-    this-&gt;height_ = rows;
-    this-&gt;len_ = cols * rows;
-    this-&gt;p_ = new T[len_];
-    memset(this-&gt;p_, 0, sizeof(T) * len_); // Important!
-    if (p != 0)
-    {
-        for (int i = 0; i&lt;len_; i++) this-&gt;p_[i] = p[i];
-    }
-}
-</code></pre>
-
-<p>};</p>
 
 <p>which is really simple and nothing special (maybo not elegant at all :P).</p>
 
