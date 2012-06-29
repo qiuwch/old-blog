@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-29T09:47:38+08:00</updated>
+  <updated>2012-06-29T09:48:51+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -419,6 +419,15 @@ Push generated pages to github</li>
 <li>rake gen_deploy</li>
 <li>rake new_post</li>
 <li>rake preview 这个可以动态更新，很方便</li>
+</ul>
+
+
+<p>修改和更新的方法</p>
+
+<ul>
+<li>修改post下的markdown原文件</li>
+<li>rake generate</li>
+<li>rake push</li>
 </ul>
 
 
