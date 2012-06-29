@@ -155,17 +155,27 @@ template&lt;class T& &hellip;">
 
 <p>But when I try to use, I found when I use syntax like:</p>
 
-<p>matirx_t a(10, 10);
-matrix_t b = a;</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matirx_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
 
 <p>when I finished a copy constructor, more problem came out.</p>
 
-<p>When I try
-matrix_t a(10, 10);
-matrix_t b(10, 10);
-b = a;</p>
+<p>When I try</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matrix_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
 for detail explanation.</p>
