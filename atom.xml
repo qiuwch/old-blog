@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-29T11:48:31+08:00</updated>
+  <updated>2012-06-30T16:45:53+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -61,6 +61,21 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
 
 <p>Basic requirement for apt-cyg to work is<br/>
 <code>setup.exe -q -P  wget,tar,qawk,bzip2,subversion,vim</code></p>
+
+<p>plus
+* git
+* openssh
+* rsync</p>
+
+<h2>Openssh config</h2>
+
+<p>After installation of openssh, should run <code>ssh-host-config</code> to config sshd service. After configuration, run <code>net start sshd</code> to start ssh service.</p>
+
+<h2>rsync config and tutorial</h2>
+
+<p>Rsync is especially useful when I want to keep the three servers be in the same state.</p>
+
+<p>Here is a <a href="http://everythinglinux.org/rsync/">tutorial</a></p>
 ]]></content>
   </entry>
   
@@ -93,6 +108,8 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
 <li>Random projection tree</li>
 <li>Deep learning for face parsing</li>
 <li>Skim mclab paper</li>
+<li>Building high-level features using large scale unsupervised learning</li>
+<li>Learning the structure of manifolds using random projections</li>
 </ul>
 
 ]]></content>
@@ -404,6 +421,13 @@ I strongly disagree, and will try my best to build my knowledge base step by ste
 <ul>
 <li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Caltech 101</a></li>
 <li><a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></li>
+</ul>
+
+
+<h2>Optical flow dataset</h2>
+
+<ul>
+<li><a href="http://vision.middlebury.edu/flow/">Middle burry</a></li>
 </ul>
 
 ]]></content>
