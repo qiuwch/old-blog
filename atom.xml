@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-06-30T16:45:53+08:00</updated>
+  <updated>2012-07-01T10:53:24+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git advanced usage]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/01/git-advanced-usage/"/>
+    <updated>2012-07-01T10:38:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/01/git-advanced-usage</id>
+    <content type="html"><![CDATA[<p>Need update
+* branch
+* submodule <code>nest git project</code>
+* remote</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Stop doing meaningless job]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/01/stop-doing-meaningless-job/"/>
+    <updated>2012-07-01T08:57:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/01/stop-doing-meaningless-job</id>
+    <content type="html"><![CDATA[<p>Meaningless job, Huh, That&#8217;s a difficult term to define.</p>
+
+<p>This is idea came across to me when I was dealing with my debian distribution. After many hours effortless struggle trying to make gnome-shell running, I felt I was really doing some meaningless job.</p>
+
+<p>Actually, I think I know the right way to deal with this technical issue. Maybe I should read the documentation and wiki provided by gnome team carefully. Try to use gdb to debug the crash problem. Or read the code carefully to distinguish the problem.</p>
+
+<p>But I choose a much lazier way, just reading the error log, purge installation, reinstall and hope it can work again. But the result is waste of many hours and learned little.</p>
+
+<p>In Chinese, this is called &#8220;折腾&#8221;. I chose linux as my working environment hoping that it can boost my working efficiency, but actually I wasted many time to make it work right.</p>
+
+<p>To deal with this kind of stuff, I think the right way to deal with it is:</p>
+
+<ul>
+<li>First, make sure if this kind of thing is really worth your time.</li>
+<li>Can you find a replacement of this software or you really need to fix it.</li>
+<li>Can you learn something from fixing those kind of stuff, in which way can you learn more?</li>
+<li>Plan the procedure and give youself some time limit.</li>
+</ul>
+
+
+<p>Actually, in our lifetime, there are many things like this wasting our time. Something we think really cool but worth little, or something you can do well so you want to repeat it again and again. There is a word <em>comfort zone</em>. It&#8217;s dangerous for us to stay in our comfort zone, and we should try to challenge us constantly and learn new stuff.</p>
+
+<p><em>Reading, thinking, coding</em> can benefit more for you, though sometimes they&#8217;re not that interesting and really time consuming.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Difference between cygwin and mingw]]></title>
