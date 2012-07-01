@@ -4,16 +4,258 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
+<<<<<<< HEAD
   <updated>2012-06-18T16:29:48+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
+=======
+  <updated>2012-07-01T10:53:24+08:00</updated>
+  <id>http://qiuwch.github.com/</id>
+  <author>
+    <name><![CDATA[Weichao Qiu]]></name>
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+<<<<<<< HEAD
+=======
+    <title type="html"><![CDATA[Git advanced usage]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/01/git-advanced-usage/"/>
+    <updated>2012-07-01T10:38:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/01/git-advanced-usage</id>
+    <content type="html"><![CDATA[<p>Need update
+* branch
+* submodule <code>nest git project</code>
+* remote</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Stop doing meaningless job]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/01/stop-doing-meaningless-job/"/>
+    <updated>2012-07-01T08:57:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/01/stop-doing-meaningless-job</id>
+    <content type="html"><![CDATA[<p>Meaningless job, Huh, That&#8217;s a difficult term to define.</p>
+
+<p>This is idea came across to me when I was dealing with my debian distribution. After many hours effortless struggle trying to make gnome-shell running, I felt I was really doing some meaningless job.</p>
+
+<p>Actually, I think I know the right way to deal with this technical issue. Maybe I should read the documentation and wiki provided by gnome team carefully. Try to use gdb to debug the crash problem. Or read the code carefully to distinguish the problem.</p>
+
+<p>But I choose a much lazier way, just reading the error log, purge installation, reinstall and hope it can work again. But the result is waste of many hours and learned little.</p>
+
+<p>In Chinese, this is called &#8220;折腾&#8221;. I chose linux as my working environment hoping that it can boost my working efficiency, but actually I wasted many time to make it work right.</p>
+
+<p>To deal with this kind of stuff, I think the right way to deal with it is:</p>
+
+<ul>
+<li>First, make sure if this kind of thing is really worth your time.</li>
+<li>Can you find a replacement of this software or you really need to fix it.</li>
+<li>Can you learn something from fixing those kind of stuff, in which way can you learn more?</li>
+<li>Plan the procedure and give youself some time limit.</li>
+</ul>
+
+
+<p>Actually, in our lifetime, there are many things like this wasting our time. Something we think really cool but worth little, or something you can do well so you want to repeat it again and again. There is a word <em>comfort zone</em>. It&#8217;s dangerous for us to stay in our comfort zone, and we should try to challenge us constantly and learn new stuff.</p>
+
+<p><em>Reading, thinking, coding</em> can benefit more for you, though sometimes they&#8217;re not that interesting and really time consuming.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Difference between cygwin and mingw]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/29/difference-between-cygwin-and-mingw/"/>
+    <updated>2012-06-29T10:44:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/29/difference-between-cygwin-and-mingw</id>
+    <content type="html"><![CDATA[<p>This is not very related to the topic of this blog. But I often came across with problem to distinguish those two, so I left the anwser here for reference.</p>
+
+<p>This answer is from <a href="http://stackoverflow.com/questions/771756/what-is-the-difference-between-cygwin-and-mingw">stackoverflow</a></p>
+
+<blockquote><p>cygwin is an attempt to create a complete UNIX/POSIX environment on Windows. To do this it uses various DLLs that unfortunately have a user-unfriendly license. MinGW is a C/C++ compiler suite which allows you to create Windows executables without dependancy on such DLLs - you only need the normal MSVC runtimes.</p>
+
+<p>You can also get a small UNIX/POSIX like environment, compiled with MinGW called MSYS. It doesn&#8217;t have anywhere near all the features of Cygwin, but is ideal for programmers wanting to use MinGW.</p></blockquote>
+
+<p>An alternative answer</p>
+
+<blockquote><p>Fairly simple:</p>
+
+<p>Compile something in Cygwin and you are compiling it for Cygwin.
+Compile something in MingW and you are compiling it for Windows.
+Cygwin is good when your app absolutely needs a POSIX environment to run - it is sometimes easier to port something to Cygwin than it is to port it to Windows, because Cygwin is a layer on top of Windows that emulates a POSIX environment. If you compile something for Cygwin then it will need to be run within the Cygwin environment, as provided by cygwin1.dll. For portability, you could distribute this dll with your project, if you were willing to comply with the relevant license.</p>
+
+<p>MingW is a Windows port of the GNU compiler tools, like GCC, Make, Bash, etc, which run directly in Windows without any emulation layer. By default it will compile to a native Win32 target, complete with .exe and .dll files, though you could also cross-compile with the right settings. It is an alternative to Microsoft Visual C compiler and its associated linking/make tools in a way.</p></blockquote>
+
+<p>In conclusion:</p>
+
+<ul>
+<li>cygwin emulates posix system</li>
+<li>mingw compiles linux code in windows</li>
+</ul>
+
+
+<h1>Update</h1>
+
+<p>After comparsion, I choose cygwin for the posix-like system for server.</p>
+
+<p>Which I needed for server is rsync and git.</p>
+
+<p>cygwin maybe slower than mingw, but it provides a package management system, which is really handy.</p>
+
+<p>This is some usefull link for cygwin</p>
+
+<ul>
+<li><a href="http://fir3net.com/Cygwin/cygwin-package-installation.html">apt-cyg</a></li>
+</ul>
+
+
+<p>Basic requirement for apt-cyg to work is<br/>
+<code>setup.exe -q -P  wget,tar,qawk,bzip2,subversion,vim</code></p>
+
+<p>plus
+* git
+* openssh
+* rsync</p>
+
+<h2>Openssh config</h2>
+
+<p>After installation of openssh, should run <code>ssh-host-config</code> to config sshd service. After configuration, run <code>net start sshd</code> to start ssh service.</p>
+
+<h2>rsync config and tutorial</h2>
+
+<p>Rsync is especially useful when I want to keep the three servers be in the same state.</p>
+
+<p>Here is a <a href="http://everythinglinux.org/rsync/">tutorial</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AAAI membership]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/29/aaai-membership/"/>
+    <updated>2012-06-29T10:20:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/29/aaai-membership</id>
+    <content type="html"><![CDATA[<p>Just got one year membership of AAAI.</p>
+
+<p>This is because the popular online open course &#8220;Introduction to artificial intelligence&#8221; taught by <a href="author:peter_norvig">Peter Norvig</a> and <a href="author:sebastian_thurun">Sebastian Thurun</a>. Before the beginning of this course, I saw a post told that those students who rank 10% of this course will be give AAAI membership for reward. I just took this as a rumor and use this to encourage myself to study hard in this course. Now months after this course, when I thought this is a real rumor, I got a mail told me that I am given a one year membership. That&#8217;s really a good gift, lol.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reading list for july]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/29/reading-list-for-july/"/>
+    <updated>2012-06-29T10:19:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/29/reading-list-for-july</id>
+    <content type="html"><![CDATA[<h2>Book</h2>
+
+<ul>
+<li>David Marr - Vision</li>
+</ul>
+
+
+<h2>Paper</h2>
+
+<ul>
+<li>Random projection tree</li>
+<li>Deep learning for face parsing</li>
+<li>Skim mclab paper</li>
+<li>Building high-level features using large scale unsupervised learning</li>
+<li>Learning the structure of manifolds using random projections</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[News:google deep learning]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/27/news-google-deep-learning/"/>
+    <updated>2012-06-27T15:43:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/27/news-google-deep-learning</id>
+    <content type="html"><![CDATA[<p>google use deep learning to develop a neural network which can be used to identify cat from youtube video.</p>
+
+<p><a href="http://www.wired.com/wiredscience/2012/06/google-x-neural-network/">link</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Face recognition]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/26/face-recognition/"/>
+    <updated>2012-06-26T21:05:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/26/face-recognition</id>
+    <content type="html"><![CDATA[<p>Fundamental question can also be fundamental problem.</p>
+
+<p>Theoretical author</p>
+
+<ul>
+<li><a href="author:pawan_sinha">Pawan Sinha</a></li>
+<li><a href="author:thomaso_poggio">Thomaso Poggio</a></li>
+</ul>
+
+
+<p>Do human treat face and object recognition the same problem?
+Can human explictly model the 3d model of face.</p>
+
+<p>Experimental result</p>
+
+<ul>
+<li><a href="paper:Attribute%20and%20Simile%20Classifiers%20for%20Face%20Verification">Human performance</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reading note for vision (david marr)]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/25/reading-note-for-vision-david-marr/"/>
+    <updated>2012-06-25T22:38:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/25/reading-note-for-vision-david-marr</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Interactive python gui programming]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/25/interactive-python-gui-programming/"/>
+    <updated>2012-06-25T21:37:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/25/interactive-python-gui-programming</id>
+    <content type="html"><![CDATA[<p>I want an interactive gui programming environment for a long time.
+Once I tried python-qt, but this seems not very friendly and elegant.</p>
+
+<p>Today I want to do some computer vision experiment, and try to do some spotlight effect. After googling for a while, I found this stackoverflow post <a href="http://stackoverflow.com/questions/115495/is-python-any-good-for-gui-development">Is Python any good for GUI development?</a>. wxPython seems more simple and elegant than python-qt.</p>
+
+<p>And some demos and tutorials are available. eg:</p>
+
+<ul>
+<li><a href="http://zetcode.com/wxpython/">wxPython tutorial</a></li>
+<li><a href="http://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/">wxPython demos and samples</a></li>
+</ul>
+
+
+<p>Which is helpful to get a brief view and have a quick start.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Track lost object]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/06/23/track-lost-object/"/>
+    <updated>2012-06-23T23:21:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/06/23/track-lost-object</id>
+    <content type="html"><![CDATA[<p>又被盗一辆自行车,
+对于这种情况应该能够有防盗器解决这种问题</p>
+
+<p>主动的方案例如GPS基站，可以提供准确的位置，但是必须时刻保持待机状态，除非像汽车电瓶供电这种特殊状态，其他情况下很难保证长时间的使用。可以实用的方案可能只有被动定位，在物体丢失时，为了追踪被盗物体，物体主人愿意花比较高的代价。因此如果才从租赁搜索器材的方式是可行的。类似定向越野的方式即可。不是rfid是否能满足这种使用需求。</p>
+
+<p>或者也可以通过平时休眠，通过主动唤醒的方式进行追踪。</p>
+
+<p>产品应用范围包括走失小孩的追踪，手机的追踪，被盗自行车的追踪。危险设备，例如枪支的追踪等。</p>
+
+<p>目前淘宝上的产品主要是使用GPS的方式追踪，对于电量的问题都无法解决。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
     <title type="html"><![CDATA[C++ memory leak problem]]></title>
     <link href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/"/>
     <updated>2012-06-18T16:02:00+08:00</updated>
@@ -22,6 +264,7 @@
 
 <p>I implemented a simple matrix class.</p>
 
+<<<<<<< HEAD
 <p>template<class T>
 class matrix_t
 {
@@ -43,22 +286,84 @@ public:</p>
 </code></pre>
 
 <p>};</p>
+=======
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">matrix_t</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'><span class="k">public</span><span class="o">:</span>
+</span><span class='line'>  <span class="n">matrix_t</span><span class="p">(</span><span class="kt">int</span> <span class="n">rows</span><span class="p">,</span> <span class="kt">int</span> <span class="n">cols</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">{</span>
+</span><span class='line'>      <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;construct.&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">width_</span> <span class="o">=</span> <span class="n">cols</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">height_</span> <span class="o">=</span> <span class="n">rows</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">len_</span> <span class="o">=</span> <span class="n">cols</span> <span class="o">*</span> <span class="n">rows</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">[</span><span class="n">len_</span><span class="p">];</span>
+</span><span class='line'>      <span class="n">memset</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="o">*</span> <span class="n">len_</span><span class="p">);</span> <span class="c1">// Important!</span>
+</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">{</span>
+</span><span class='line'>          <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
 
 <p>which is really simple and nothing special (maybo not elegant at all :P).</p>
 
 <p>But when I try to use, I found when I use syntax like:</p>
 
+<<<<<<< HEAD
 <p>matirx_t a(10, 10);
 matrix_t b = a;</p>
+=======
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matirx_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
 
 <p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
 
 <p>when I finished a copy constructor, more problem came out.</p>
 
+<<<<<<< HEAD
 <p>When I try
 matrix_t a(10, 10);
 matrix_t b(10, 10);
 b = a;</p>
+=======
+<p>When I try</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matrix_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
 
 <p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
 for detail explanation.</p>
@@ -207,6 +512,16 @@ I strongly disagree, and will try my best to build my knowledge base step by ste
 <li><a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></li>
 </ul>
 
+<<<<<<< HEAD
+=======
+
+<h2>Optical flow dataset</h2>
+
+<ul>
+<li><a href="http://vision.middlebury.edu/flow/">Middle burry</a></li>
+</ul>
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
 ]]></content>
   </entry>
   
@@ -303,12 +618,36 @@ I strongly disagree, and will try my best to build my knowledge base step by ste
 rake的命令可以直接tab补全出来，我目前会用的只有</p>
 
 <ul>
+<<<<<<< HEAD
 <li>rake generate</li>
 <li>rake deploy</li>
 <li>rake gen_deploy</li>
 <li>rake new_post</li>
 <li>rake preview 这个可以动态更新，很方便</li>
 <li>rake setup_github_pages</li>
+=======
+<li>rake setup_git_pages<br/>
+格式是git@github.com:qiuwch/qiuwch.github.com.git, 初始化git pages</li>
+<li>rake generate<br/>
+生成Jekelly style files
+from source generate pages</li>
+<li>rake deploy<br/>
+This seems not working well</li>
+<li>rake push<br/>
+Push generated pages to github</li>
+<li>rake gen_deploy</li>
+<li>rake new_post</li>
+<li>rake preview 这个可以动态更新，很方便</li>
+</ul>
+
+
+<p>修改和更新的方法</p>
+
+<ul>
+<li>修改post下的markdown原文件</li>
+<li>rake generate</li>
+<li>rake push</li>
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
 </ul>
 
 
