@@ -1,0 +1,546 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>C++ memory leak problem - Review of AI</title>
+<<<<<<< HEAD
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="There is a trouble puzzled me for a long time. I implemented a simple matrix class. template
+class matrix_t
+{
+public: matrix_t(int rows, int cols, T &hellip;">
+=======
+  <meta name="author" content="Weichao Qiu">
+
+  
+  <meta name="description" content="There is a trouble puzzled me for a long time. I implemented a simple matrix class. 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+template&lt;class T& &hellip;">
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<<<<<<< HEAD
+  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/syntax/syntax.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    body {
+      padding-bottom: 40px;
+    }
+    h1 {
+      margin-bottom: 15px;
+    }
+    img {
+      max-width: 100%;
+    }
+    .sharing, .meta, .pager {
+      margin: 20px 0px 20px 0px;
+    }
+    .page-footer p {
+      text-align: center;
+    }
+  </style>
+  <script src="/javascripts/libs/jquery.js"></script>
+  <script src="/javascripts/libs/modernizr-2.0.js"></script>
+  <script src="/javascripts/libs/bootstrap.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Review of AI" type="application/atom+xml">
+  
+=======
+  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Review of AI" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+  
+
+</head>
+
+<body   >
+<<<<<<< HEAD
+  <nav role="navigation"><div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <a class="brand" href="/">Review of AI</a>
+
+      <div class="nav-collapse">
+        <ul class="nav">
+=======
+  <header role="banner"><hgroup>
+  <h1><a href="/">Review of AI</a></h1>
+  
+    <h2>What's the representation of knowledge</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:qiuwch.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+<<<<<<< HEAD
+
+        <ul class="nav pull-right" data-subscription="rss">
+          <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+          
+        </ul>
+
+        
+          <form class="pull-right navbar-search" action="http://google.com/search" method="get">
+            <fieldset role="search">
+              <input type="hidden" name="q" value="site:qiuwch.github.com" />
+              <input class="search-query" type="text" name="q" results="0" placeholder="Search"/>
+            </fieldset>
+          </form>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+  <div class="container">
+    <div class="row-fluid">
+      
+<article class="hentry span9" role="article">
+
+  
+  <header class="page-header">
+=======
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+    
+      <h1 class="entry-title">C++ Memory Leak Problem</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-18T16:02:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>There is a trouble puzzled me for a long time.</p>
+
+<p>I implemented a simple matrix class.</p>
+
+<<<<<<< HEAD
+<p>template<class T>
+class matrix_t
+{
+public:</p>
+
+<pre><code>matrix_t(int rows, int cols, T *p = 0)
+{
+    std::cout &lt;&lt; "construct." &lt;&lt; std::endl;
+    this-&gt;width_ = cols;
+    this-&gt;height_ = rows;
+    this-&gt;len_ = cols * rows;
+    this-&gt;p_ = new T[len_];
+    memset(this-&gt;p_, 0, sizeof(T) * len_); // Important!
+    if (p != 0)
+    {
+        for (int i = 0; i&lt;len_; i++) this-&gt;p_[i] = p[i];
+    }
+}
+</code></pre>
+
+<p>};</p>
+=======
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">matrix_t</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'><span class="k">public</span><span class="o">:</span>
+</span><span class='line'>  <span class="n">matrix_t</span><span class="p">(</span><span class="kt">int</span> <span class="n">rows</span><span class="p">,</span> <span class="kt">int</span> <span class="n">cols</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">{</span>
+</span><span class='line'>      <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;construct.&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">width_</span> <span class="o">=</span> <span class="n">cols</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">height_</span> <span class="o">=</span> <span class="n">rows</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">len_</span> <span class="o">=</span> <span class="n">cols</span> <span class="o">*</span> <span class="n">rows</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">[</span><span class="n">len_</span><span class="p">];</span>
+</span><span class='line'>      <span class="n">memset</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="o">*</span> <span class="n">len_</span><span class="p">);</span> <span class="c1">// Important!</span>
+</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">{</span>
+</span><span class='line'>          <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+
+<p>which is really simple and nothing special (maybo not elegant at all :P).</p>
+
+<p>But when I try to use, I found when I use syntax like:</p>
+
+<<<<<<< HEAD
+<p>matirx_t a(10, 10);
+matrix_t b = a;</p>
+=======
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matirx_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+
+<p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
+
+<p>when I finished a copy constructor, more problem came out.</p>
+
+<<<<<<< HEAD
+<p>When I try
+matrix_t a(10, 10);
+matrix_t b(10, 10);
+b = a;</p>
+=======
+<p>When I try</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matrix_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+
+<p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
+for detail explanation.</p>
+
+<p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<<<<<<< HEAD
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+=======
+<span class="byline author vcard">Posted by <span class="fn">Weichao Qiu</span></span>
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-18T16:02:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+<<<<<<< HEAD
+    
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </section>
+    
+    <ul class="pager">
+      
+      <li class="previous"><a class="basic-alignment left"
+        href="/blog/2012/06/18/how-to-use-valgrind/" title="Previous Post:
+        how to use valgrind">&laquo; how to use valgrind</a></li>
+      
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+    </ul>
+  </footer>
+</article>
+
+<aside class="sidebar-nav span3">
+  
+    <section class="well">
+  <ul id="recent_posts" class="nav nav-list">
+    <li class="nav-header">Recent Posts</li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/18/c-plus-plus-memory-leak-problem/">C++ memory leak problem</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/18/how-to-use-valgrind/">how to use valgrind</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/17/project-report/">project report</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/17/about-recent-work/">about recent work</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/17/paper-list-for-mclab-hust/">Paper list for mclab hust</a>
+=======
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/06/18/how-to-use-valgrind/" title="Previous Post: how to use valgrind">&laquo; how to use valgrind</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/06/23/track-lost-object/" title="Next Post: Track lost object">Track lost object &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/07/01/git-advanced-usage/">Git advanced usage</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/01/stop-doing-meaningless-job/">Stop doing meaningless job</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/29/difference-between-cygwin-and-mingw/">Difference between cygwin and mingw</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/29/aaai-membership/">AAAI membership</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/29/reading-list-for-july/">Reading list for july</a>
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+      </li>
+    
+  </ul>
+</section>
+
+<<<<<<< HEAD
+<section class="well">
+  <ul id="gh_repos" class="nav">
+    <li class="nav-header">GitHub Repos</li>
+=======
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/qiuwch">@qiuwch</a> on GitHub
+  
+  <script type="text/javascript">
+<<<<<<< HEAD
+    $(document).ready(function(){
+=======
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+        github.showRepos({
+            user: 'qiuwch',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+<<<<<<< HEAD
+  <script src="/javascripts/asides/github.js" type="text/javascript"> </script>
+=======
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+<<<<<<< HEAD
+  <footer role="contentinfo" class="page-footer"><hr>
+<p>
+  Copyright &copy; 2012 - Your Name -
+=======
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Weichao Qiu -
+>>>>>>> 5655cd993a8aac3aa9a865612819e87ffba21b11
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'qiuwch';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/';
+        var disqus_url = 'http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

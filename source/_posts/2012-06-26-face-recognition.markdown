@@ -20,4 +20,5 @@ Experimental result
 
 * [Human performance](paper:Attribute and Simile Classifiers for Face Verification)
 
+[Chinese survey](人脸识别理论与应用研究_山世光)
 
