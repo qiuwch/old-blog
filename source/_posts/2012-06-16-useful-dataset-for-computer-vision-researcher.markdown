@@ -18,3 +18,8 @@ Natural dataset
 ---------------
 * [Caltech 101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)
 * [Nister and Stewenius (N-S) dataset](www.vis.uky.edu/~stewe/ukbench/)
+
+Optical flow dataset
+--------------------
+* [Middle burry](http://vision.middlebury.edu/flow/)
+
