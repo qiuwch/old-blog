@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>how to use valgrind - Review of AI</title>
+  <title>Intro to biological vision - Review of AI</title>
   <meta name="author" content="Weichao Qiu">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="Efficient coding
+Stereo vision
+Saliency As an engineer, I am trying to find something that can really work and can be applied to build intelligent &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/">
+  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">How to Use Valgrind</h1>
+      <h1 class="entry-title">Intro to Biological Vision</h1>
     
     
       <p class="meta">
@@ -84,14 +85,68 @@
   
 
 
-<time datetime="2012-06-18T10:45:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+<time datetime="2012-07-09T11:36:00+08:00" pubdate data-updated="true">Jul 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><ul>
+<li>Efficient coding</li>
+<li>Stereo vision</li>
+<li>Saliency</li>
+</ul>
+
+
+<p>As an engineer, I am trying to find something that can really work and can be applied to build intelligent machine.</p>
+
+<p>There is some fact of vision and many assumption and theories.</p>
+
+<p>Some important fact that:</p>
+
+<ul>
+<li>V1 is 100x larger than retina in terms of neuron counts</li>
+<li>V1&#8217;s receptive field is tuned to orientation</li>
+</ul>
+
+
+<p>I think human&#8217;s vision has the ability of unsupervised learning, when you see something for a long period, your vision system is tuned to recognize that object more easily.</p>
+
+<p>Theory of attention (both bottom-up and top-down) is supported by many experiments. In some kind of situation, vision is super fast compared with machine vision, like object recognition. But in some situation, human vision is slow, like finding the difference between two images.</p>
+
+<p>In recognition task, human vision needs some &#8220;imagination&#8221; to recognize something that he never saw. Imagination is a mysterious word for science to explain. Maybe imagination is because neural network is a generative model, and the randomness of strength of neuron connection make the result sightly different</p>
+
+<p>For an intelligent machine, we need to implement, (only add the absolutely necessary components)</p>
+
+<ol>
+<li>Memory</li>
+<li>Imagination</li>
+</ol>
+
+
+<p>The ability
+1. Learning</p>
+
+<p>Too many to memory, how to memory efficiently</p>
+
+<p>Border pixel density is sparse</p>
+
+<p>Engineering: Problem driven
+Science: Fact driven</p>
+
+<p>Saliency cause:</p>
+
+<ol>
+<li>Size</li>
+<li>Color</li>
+<li>Orientation</li>
+</ol>
+
+
+<p>Why size and orientation can fire saliency ?</p>
+
+<p>What&#8217;s the distribution of receptive field in V1 ?</p>
 </div>
 
 
@@ -114,7 +169,7 @@
   
 
 
-<time datetime="2012-06-18T10:45:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+<time datetime="2012-07-09T11:36:00+08:00" pubdate data-updated="true">Jul 9<span>th</span>, 2012</time>
       
 
 
@@ -122,7 +177,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/" >Tweet</a>
   
   
   
@@ -131,10 +186,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/06/17/project-report/" title="Previous Post: project report">&laquo; project report</a>
+        <a class="basic-alignment left" href="/blog/2012/07/01/comparison-between-gnome/" title="Previous Post: Comparison between gnome">&laquo; Comparison between gnome</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/06/18/c-plus-plus-memory-leak-problem/" title="Next Post: C++ memory leak problem">C++ memory leak problem &raquo;</a>
       
     </p>
   </footer>
@@ -230,8 +283,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/';
-        var disqus_url = 'http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/';
+        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/';
+        var disqus_url = 'http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/';
         var disqus_script = 'embed.js';
       
     (function () {

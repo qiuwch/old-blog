@@ -5,29 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>C++ memory leak problem - Review of AI</title>
+  <title>Review of AI</title>
   <meta name="author" content="Weichao Qiu">
 
   
-  <meta name="description" content="There is a trouble puzzled me for a long time. I implemented a simple matrix class. 1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-template&lt;class T& &hellip;">
+  <meta name="description" content="I want an interactive gui programming environment for a long time.
+Once I tried python-qt, but this seems not very friendly and elegant. Today I want &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -36,7 +19,7 @@ template&lt;class T& &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/">
+  <link rel="canonical" href="http://qiuwch.github.com/blog/page/2/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -80,12 +63,109 @@ template&lt;class T& &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div>
-<article class="hentry" role="article">
+      <div class="blog-index">
   
+  
+  
+    <article>
+      
   <header>
     
-      <h1 class="entry-title">C++ Memory Leak Problem</h1>
+      <h1 class="entry-title"><a href="/blog/2012/06/25/interactive-python-gui-programming/">Interactive Python Gui Programming</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-25T21:37:00+08:00" pubdate data-updated="true">Jun 25<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I want an interactive gui programming environment for a long time.
+Once I tried python-qt, but this seems not very friendly and elegant.</p>
+
+<p>Today I want to do some computer vision experiment, and try to do some spotlight effect. After googling for a while, I found this stackoverflow post <a href="http://stackoverflow.com/questions/115495/is-python-any-good-for-gui-development">Is Python any good for GUI development?</a>. wxPython seems more simple and elegant than python-qt.</p>
+
+<p>And some demos and tutorials are available. eg:</p>
+
+<ul>
+<li><a href="http://zetcode.com/wxpython/">wxPython tutorial</a></li>
+<li><a href="http://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/">wxPython demos and samples</a></li>
+</ul>
+
+
+<p>Which is helpful to get a brief view and have a quick start.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/23/track-lost-object/">Track Lost Object</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-23T23:21:00+08:00" pubdate data-updated="true">Jun 23<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>又被盗一辆自行车,
+对于这种情况应该能够有防盗器解决这种问题</p>
+
+<p>主动的方案例如GPS基站，可以提供准确的位置，但是必须时刻保持待机状态，除非像汽车电瓶供电这种特殊状态，其他情况下很难保证长时间的使用。可以实用的方案可能只有被动定位，在物体丢失时，为了追踪被盗物体，物体主人愿意花比较高的代价。因此如果才从租赁搜索器材的方式是可行的。类似定向越野的方式即可。不是rfid是否能满足这种使用需求。</p>
+
+<p>或者也可以通过平时休眠，通过主动唤醒的方式进行追踪。</p>
+
+<p>产品应用范围包括走失小孩的追踪，手机的追踪，被盗自行车的追踪。危险设备，例如枪支的追踪等。</p>
+
+<p>目前淘宝上的产品主要是使用GPS的方式追踪，对于电量的问题都无法解决。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/18/c-plus-plus-memory-leak-problem/">C++ Memory Leak Problem</a></h1>
     
     
       <p class="meta">
@@ -108,7 +188,7 @@ template&lt;class T& &hellip;">
   </header>
 
 
-<div class="entry-content"><p>There is a trouble puzzled me for a long time.</p>
+  <div class="entry-content"><p>There is a trouble puzzled me for a long time.</p>
 
 <p>I implemented a simple matrix class.</p>
 
@@ -182,61 +262,381 @@ for detail explanation.</p>
 
 <p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
 </div>
-
-
-  <footer>
-    <p class="meta">
-      
   
-
-<span class="byline author vcard">Posted by <span class="fn">Weichao Qiu</span></span>
-
-      
-
-
-
-
-
-
-
-
   
 
 
-<time datetime="2012-06-18T16:02:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+    </article>
+  
+  
+    <article>
       
-
-
-    </p>
+  <header>
     
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/" >Tweet</a>
-  
-  
-  
-</div>
-
+      <h1 class="entry-title"><a href="/blog/2012/06/18/how-to-use-valgrind/">How to Use Valgrind</a></h1>
     
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2012/06/18/how-to-use-valgrind/" title="Previous Post: how to use valgrind">&laquo; how to use valgrind</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2012/06/23/track-lost-object/" title="Next Post: Track lost object">Track lost object &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
+    
+      <p class="meta">
+        
 
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-18T10:45:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
 </div>
-  </section>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/17/project-report/">Project Report</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-17T19:39:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>meeno
+短信便签</p>
+
+<p>自动短信筛选
+号码和内容</p>
+
+<p>micro starwar</p>
+
+<p>Tuudo
+滑动
+any.do</p>
+
+<p>wifile
+能够建立热点
+没有客户端
+整块的背景图片</p>
+
+<p>Check of Fuubo
+速度太慢</p>
+
+<p>图片墙
+网速，版权
+核心问题
+PM要懂技术
+轻博客</p>
+
+<p>Euuro</p>
+
+<p>intra分享</p>
+
+<p>kong miao</p>
+
+<p>nap time</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/17/about-recent-work/">About Recent Work</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-17T03:30:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>关于近期工作的吐槽</h2>
+
+<p>转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的</p>
+
+<ul>
+<li>motion segmentation</li>
+<li>人脸识别</li>
+<li>data skeleton</li>
+</ul>
+
+
+<p>倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课</p>
+
+<p>晚上和bai为了暑假课程的事情争了很久，他说得有几点我是认同的</p>
+
+<ul>
+<li>想做的太大太远</li>
+<li>对于研究生时间不允许，要尽快出成果</li>
+</ul>
+
+
+<h2>未来的时间安排</h2>
+
+<p>刚进实验室的时候总还觉得时间很多，可是转眼研究生一年级就快结束了．</p>
+
+<p>下学期开学以后马上要忙的事是研究生的开题和12月的GRE．开题如果还拿不出一个很明确的方向的话，到时候又会非常的被动．</p>
+
+<p>因此暑假的工作显得尤其重要，除了抽空背背单词，其他的时间应该都是在想idea，做实验，灌水．</p>
+
+<p>其实计算机视觉远没有当初想的那么神秘和神圣，真想做科研还是去做认知科学的好．可是就如bai说的，现在根本还没有那个资本．连bai这样的学者都不能满意的学生，又如何去顶级的学术机构做科研的．不如花这两个月的时间，为自己积累些说话的资本，后期的发展也会顺一些．</p>
+
+<p>ICPR没中其实完全没有出乎意料，临时赶出来的第一稿的draft要是能中才意外了．不过从实验室中的三篇来看，似乎创新性都不高，灌水并没有想象中的困难．</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/17/paper-list-for-mclab-hust/">Paper List for Mclab Hust</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-17T00:34:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="">Unsupervised Metric Fusion by Cross Diffusion</a> Bo Wang</li>
+<li><a href="">Fan Shape Model for Object Detection</a> Xinggang Wang</li>
+<li><a href="">Detecting Texts of Arbitrary Orientations in Natural Images</a> Cong Yao</li>
+</ul>
 
 </div>
+  
+  
 
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step/">Build the Foundation of Computer Vision Step by Step</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-17T00:28:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Xiang said my goal for computer vision is too ambitious and current research of cognitive science is useless for computer vision.
+I strongly disagree, and will try my best to build my knowledge base step by step here.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/16/useful-dataset-for-computer-vision-researcher/">Useful Dataset for Computer Vision Researcher</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-16T23:51:00+08:00" pubdate data-updated="true">Jun 16<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>Shape dataset</h2>
+
+<ul>
+<li><a href="http://visionlab.uta.edu/shape_data.htm">MPEG7 shape</a></li>
+</ul>
+
+
+<h2>Face dataset</h2>
+
+<ul>
+<li><a href="http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html">At&amp;T face image</a></li>
+</ul>
+
+
+<h2>Natural dataset</h2>
+
+<ul>
+<li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Caltech 101</a></li>
+<li><a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></li>
+</ul>
+
+
+<h2>Optical flow dataset</h2>
+
+<ul>
+<li><a href="http://vision.middlebury.edu/flow/">Middle burry</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/15/research-of-computer-vision/">Research of Computer Vision</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-15T23:13:00+08:00" pubdate data-updated="true">Jun 15<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Computer Vision is a too big topic for me to talk about. Here I just want to share what I collected these two years when surfing this research field.</p>
+
+<p>Computer vision is always treated as the inverse problem of graphics. This is because the task of computer vision is to infer the meaning of the scene from the input image which is opposite to the graphics.</p>
+
+<p>This field is widely studied because of the unlimited potential of applications. Already widely used computer vision algorithms including</p>
+
+<ul>
+<li>Face detection</li>
+<li>Visual image search</li>
+<li>Image stitching</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
 <aside class="sidebar">
   
     <section>
@@ -269,7 +669,7 @@ for detail explanation.</p>
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
+    <li class="loading">Status updating&#8230;</li>
   </ul>
   
   <a href="https://github.com/qiuwch">@qiuwch</a> on GitHub
@@ -303,7 +703,6 @@ for detail explanation.</p>
   
 </aside>
 
-
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -318,10 +717,7 @@ for detail explanation.</p>
       var disqus_shortname = 'qiuwch';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/';
-        var disqus_url = 'http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
