@@ -9,13 +9,16 @@ categories:
 Fundamental question can also be fundamental problem.
 
 Theoretical author
+
 * [Pawan Sinha](author:pawan_sinha)
 * [Thomaso Poggio](author:thomaso_poggio)
-Do human threat face and object recognition the same problem?
+
+Do human treat face and object recognition the same problem?
 Can human explictly model the 3d model of face.
 
 Experimental result
-[Human performance](paper:Attribute and Simile Classifiers for Face Verification)
+
+* [Human performance](paper:Attribute and Simile Classifiers for Face Verification)
 
 [Chinese survey](人脸识别理论与应用研究_山世光)
 

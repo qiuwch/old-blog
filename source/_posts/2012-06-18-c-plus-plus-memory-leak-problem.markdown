@@ -9,6 +9,7 @@ There is a trouble puzzled me for a long time.
 
 I implemented a simple matrix class.
 
+``` c++
 template<class T>
 class matrix_t
 {
@@ -27,23 +28,27 @@ public:
 		}
 	}
 };
+```
 
 which is really simple and nothing special (maybo not elegant at all :P). 
 
 But when I try to use, I found when I use syntax like:
 
+``` c++
 matirx_t a(10, 10);
 matrix_t b = a;
+```
 
 always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.
 
 when I finished a copy constructor, more problem came out.
 
 When I try
+``` c++
 matrix_t a(10, 10);
 matrix_t b(10, 10);
 b = a;
-
+```
 This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this [Copy Constructor and assignment operator](http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/)
 for detail explanation.
 
