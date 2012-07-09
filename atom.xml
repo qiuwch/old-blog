@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-09T19:03:54+08:00</updated>
+  <updated>2012-07-09T20:55:06+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -221,12 +221,29 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
 </ul>
 
 
-<h2>Paper</h2>
+<h1>Paper</h1>
+
+<h2>McLab paper</h2>
 
 <ul>
+<li>Skim mclab paper</li>
+</ul>
+
+
+<h2>Face recognition</h2>
+
+<ul>
+<li>Thesis paper of Shan [Done]</li>
 <li>Random projection tree</li>
 <li>Deep learning for face parsing</li>
-<li>Skim mclab paper</li>
+</ul>
+
+
+<h2>Machine Learning</h2>
+
+<ul>
+<li>High performance neural networks for visual object classification [2011][Technical report][Skimmed]</li>
+<li>Selecting receptive fields in deep learning [Anrew Ng][Finish part1]</li>
 <li>Building high-level features using large scale unsupervised learning</li>
 <li>Learning the structure of manifolds using random projections</li>
 </ul>
@@ -551,6 +568,9 @@ I strongly disagree, and will try my best to build my knowledge base step by ste
 <li><a href="http://vision.middlebury.edu/flow/">Middle burry</a></li>
 </ul>
 
+
+<p>Object recognition
+* <a href="http://www.cs.nyu.edu/~ylclab/data/norb-v1.0/">Norb dataset</a></p>
 ]]></content>
   </entry>
   
