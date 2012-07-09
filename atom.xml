@@ -5,12 +5,16 @@
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <updated>2012-06-18T16:29:48+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
 =======
   <updated>2012-07-01T10:53:24+08:00</updated>
+=======
+  <updated>2012-07-02T10:21:20+08:00</updated>
+>>>>>>> bd6d7e0d93fcaf126d86d7a3d247d1cf091c22e8
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -22,15 +26,31 @@
   
   <entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+    <title type="html"><![CDATA[Comparison between gnome]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/01/comparison-between-gnome/"/>
+    <updated>2012-07-01T11:10:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/01/comparison-between-gnome</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+>>>>>>> bd6d7e0d93fcaf126d86d7a3d247d1cf091c22e8
     <title type="html"><![CDATA[Git advanced usage]]></title>
     <link href="http://qiuwch.github.com/blog/2012/07/01/git-advanced-usage/"/>
     <updated>2012-07-01T10:38:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/01/git-advanced-usage</id>
-    <content type="html"><![CDATA[<p>Need update
-* branch
-* submodule <code>nest git project</code>
-* remote</p>
+    <content type="html"><![CDATA[<p>Need update</p>
+
+<ul>
+<li>branch</li>
+<li>submodule <code>nest git project</code></li>
+<li>remote</li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -202,6 +222,8 @@ Can human explictly model the 3d model of face.</p>
 <li><a href="paper:Attribute%20and%20Simile%20Classifiers%20for%20Face%20Verification">Human performance</a></li>
 </ul>
 
+
+<p><a href="%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E7%90%86%E8%AE%BA%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6_%E5%B1%B1%E4%B8%96%E5%85%89">Chinese survey</a></p>
 ]]></content>
   </entry>
   
