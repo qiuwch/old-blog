@@ -23,3 +23,6 @@ Optical flow dataset
 --------------------
 * [Middle burry](http://vision.middlebury.edu/flow/)
 
+
+Object recognition
+* [Norb dataset](http://www.cs.nyu.edu/~ylclab/data/norb-v1.0/)
