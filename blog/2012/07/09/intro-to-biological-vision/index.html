@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>about recent work - Review of AI</title>
+  <title>Intro to biological vision - Review of AI</title>
   <meta name="author" content="Weichao Qiu">
 
   
-  <meta name="description" content="关于近期工作的吐槽 转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的 motion segmentation
-人脸识别
-data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课 晚上和bai为了暑假课程的事情争了很久， &hellip;">
+  <meta name="description" content="Efficient coding
+Stereo vision
+Saliency As an engineer, I am trying to find something that can really work and can be applied to build intelligent &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/06/17/about-recent-work/">
+  <link rel="canonical" href="http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -69,7 +69,7 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
   
   <header>
     
-      <h1 class="entry-title">About Recent Work</h1>
+      <h1 class="entry-title">Intro to Biological Vision</h1>
     
     
       <p class="meta">
@@ -85,45 +85,68 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
   
 
 
-<time datetime="2012-06-17T03:30:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
+<time datetime="2012-07-09T11:36:00+08:00" pubdate data-updated="true">Jul 9<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2>关于近期工作的吐槽</h2>
-
-<p>转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的</p>
-
-<ul>
-<li>motion segmentation</li>
-<li>人脸识别</li>
-<li>data skeleton</li>
+<div class="entry-content"><ul>
+<li>Efficient coding</li>
+<li>Stereo vision</li>
+<li>Saliency</li>
 </ul>
 
 
-<p>倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课</p>
+<p>As an engineer, I am trying to find something that can really work and can be applied to build intelligent machine.</p>
 
-<p>晚上和bai为了暑假课程的事情争了很久，他说得有几点我是认同的</p>
+<p>There is some fact of vision and many assumption and theories.</p>
+
+<p>Some important fact that:</p>
 
 <ul>
-<li>想做的太大太远</li>
-<li>对于研究生时间不允许，要尽快出成果</li>
+<li>V1 is 100x larger than retina in terms of neuron counts</li>
+<li>V1&#8217;s receptive field is tuned to orientation</li>
 </ul>
 
 
-<h2>未来的时间安排</h2>
+<p>I think human&#8217;s vision has the ability of unsupervised learning, when you see something for a long period, your vision system is tuned to recognize that object more easily.</p>
 
-<p>刚进实验室的时候总还觉得时间很多，可是转眼研究生一年级就快结束了．</p>
+<p>Theory of attention (both bottom-up and top-down) is supported by many experiments. In some kind of situation, vision is super fast compared with machine vision, like object recognition. But in some situation, human vision is slow, like finding the difference between two images.</p>
 
-<p>下学期开学以后马上要忙的事是研究生的开题和12月的GRE．开题如果还拿不出一个很明确的方向的话，到时候又会非常的被动．</p>
+<p>In recognition task, human vision needs some &#8220;imagination&#8221; to recognize something that he never saw. Imagination is a mysterious word for science to explain. Maybe imagination is because neural network is a generative model, and the randomness of strength of neuron connection make the result sightly different</p>
 
-<p>因此暑假的工作显得尤其重要，除了抽空背背单词，其他的时间应该都是在想idea，做实验，灌水．</p>
+<p>For an intelligent machine, we need to implement, (only add the absolutely necessary components)</p>
 
-<p>其实计算机视觉远没有当初想的那么神秘和神圣，真想做科研还是去做认知科学的好．可是就如bai说的，现在根本还没有那个资本．连bai这样的学者都不能满意的学生，又如何去顶级的学术机构做科研的．不如花这两个月的时间，为自己积累些说话的资本，后期的发展也会顺一些．</p>
+<ol>
+<li>Memory</li>
+<li>Imagination</li>
+</ol>
 
-<p>ICPR没中其实完全没有出乎意料，临时赶出来的第一稿的draft要是能中才意外了．不过从实验室中的三篇来看，似乎创新性都不高，灌水并没有想象中的困难．</p>
+
+<p>The ability
+1. Learning</p>
+
+<p>Too many to memory, how to memory efficiently</p>
+
+<p>Border pixel density is sparse</p>
+
+<p>Engineering: Problem driven
+Science: Fact driven</p>
+
+<p>Saliency cause:</p>
+
+<ol>
+<li>Size</li>
+<li>Color</li>
+<li>Orientation</li>
+</ol>
+
+
+<p>Why size and orientation can fire saliency ?</p>
+
+<p>What&#8217;s the distribution of receptive field in V1 ?</p>
 </div>
 
 
@@ -146,7 +169,7 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
   
 
 
-<time datetime="2012-06-17T03:30:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
+<time datetime="2012-07-09T11:36:00+08:00" pubdate data-updated="true">Jul 9<span>th</span>, 2012</time>
       
 
 
@@ -154,7 +177,7 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/06/17/about-recent-work/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/06/17/about-recent-work/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/" data-via="" data-counturl="http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/" >Tweet</a>
   
   
   
@@ -163,10 +186,10 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/06/17/paper-list-for-mclab-hust/" title="Previous Post: Paper list for mclab hust">&laquo; Paper list for mclab hust</a>
+        <a class="basic-alignment left" href="/blog/2012/07/01/comparison-between-gnome/" title="Previous Post: Comparison between gnome">&laquo; Comparison between gnome</a>
       
       
-        <a class="basic-alignment right" href="/blog/2012/06/17/project-report/" title="Next Post: project report">project report &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2012/07/14/ji-lu-pian/" title="Next Post: 纪录片">纪录片 &raquo;</a>
       
     </p>
   </footer>
@@ -262,8 +285,8 @@ data skeleton 倒是基础知识长进了不说，学了Machine Learning, AI, PG
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/06/17/about-recent-work/';
-        var disqus_url = 'http://qiuwch.github.com/blog/2012/06/17/about-recent-work/';
+        var disqus_identifier = 'http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/';
+        var disqus_url = 'http://qiuwch.github.com/blog/2012/07/09/intro-to-biological-vision/';
         var disqus_script = 'embed.js';
       
     (function () {
