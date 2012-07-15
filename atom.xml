@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-14T19:38:17+08:00</updated>
+  <updated>2012-07-15T16:51:14+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -14,12 +14,51 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Sandbox]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/15/sandbox/"/>
+    <updated>2012-07-15T16:32:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/15/sandbox</id>
+    <content type="html"><![CDATA[<p>This is a post to test the functionality of octopress.</p>
+
+<p><a href="http://octopress.org/docs/">Documentation of octopress</a></p>
+
+<h2>Images</h2>
+
+<p>Image tag</p>
+
+<p><img src="http://qiuwch.github.com/images/CCT/CCT1ComputersFreeWill.jpg" title="TestImage.png" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Read 7.14]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/14/read-7-dot-14/"/>
+    <updated>2012-07-14T19:41:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/14/read-7-dot-14</id>
+    <content type="html"><![CDATA[<h2>Fixations on low-resolution images</h2>
+
+<p>Are these fixations likely to land at the same locations as the actual objects of interest in the high-
+resolution images?</p>
+
+<p>saccade和fixation的区别是什么？</p>
+
+<p>能否使用eye fixation的原理做快速的物体检测</p>
+
+<p>center bias的现象是否和中央感受野的密度比较大有关系？</p>
+
+<h2>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION</h2>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[纪录片]]></title>
     <link href="http://qiuwch.github.com/blog/2012/07/14/ji-lu-pian/"/>
     <updated>2012-07-14T19:33:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/14/ji-lu-pian</id>
     <content type="html"><![CDATA[<p><a href="http://tv.sohu.com/20120711/n347902762.shtml">纪录片:金钱一代 关于中国的巨富阶层的调查纪录片</a>
 远大集团-张跃</p>
+
+<p>[道兰][NHK纪录片]IT世代-改变未来的年轻一代</p>
 ]]></content>
   </entry>
   
@@ -298,6 +337,8 @@ Can human explictly model the 3d model of face.</p>
 
 
 <p><a href="%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E7%90%86%E8%AE%BA%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6_%E5%B1%B1%E4%B8%96%E5%85%89">Chinese survey</a></p>
+
+<p><a href="http://www.mathworks.com/matlabcentral/fileexchange/26523-the-inface-toolbox-v2-0-for-illumination-invariant-face-recognition">Matlab illumination toolbox</a></p>
 ]]></content>
   </entry>
   
@@ -532,55 +573,6 @@ PM要懂技术
 <li><a href="">Detecting Texts of Arbitrary Orientations in Natural Images</a> Cong Yao</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Build the foundation of computer vision step by step]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step/"/>
-    <updated>2012-06-17T00:28:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step</id>
-    <content type="html"><![CDATA[<p>Xiang said my goal for computer vision is too ambitious and current research of cognitive science is useless for computer vision.
-I strongly disagree, and will try my best to build my knowledge base step by step here.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Useful dataset for computer vision researcher]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher/"/>
-    <updated>2012-06-16T23:51:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher</id>
-    <content type="html"><![CDATA[<h2>Shape dataset</h2>
-
-<ul>
-<li><a href="http://visionlab.uta.edu/shape_data.htm">MPEG7 shape</a></li>
-</ul>
-
-
-<h2>Face dataset</h2>
-
-<ul>
-<li><a href="http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html">At&amp;T face image</a></li>
-</ul>
-
-
-<h2>Natural dataset</h2>
-
-<ul>
-<li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Caltech 101</a></li>
-<li><a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></li>
-</ul>
-
-
-<h2>Optical flow dataset</h2>
-
-<ul>
-<li><a href="http://vision.middlebury.edu/flow/">Middle burry</a></li>
-</ul>
-
-
-<p>Object recognition
-* <a href="http://www.cs.nyu.edu/~ylclab/data/norb-v1.0/">Norb dataset</a></p>
 ]]></content>
   </entry>
   
