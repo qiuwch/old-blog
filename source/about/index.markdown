@@ -7,3 +7,4 @@ sharing: true
 footer: true
 ---
 This is a blog about Aritificial Intelligence and Computer Vision.
+自己写的代码几天不看，就记不住了
