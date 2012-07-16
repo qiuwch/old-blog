@@ -9,7 +9,7 @@
   <meta name="author" content="Weichao Qiu">
 
   
-  <meta name="description" content="计算机视觉经典论文
+  <meta name="description" content="Xclip与Clipboard的区别
 ">
   
 
@@ -71,6 +71,80 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2012/07/16/linux-tips/">Linux Tips</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-16T14:31:00+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.dutor.net/index.php/2010/10/toolkits-xclip-x-clipboard/">Xclip与Clipboard的区别</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/16/ted-list/">Ted List</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-16T12:26:00+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://v.youku.com/v_show/id_XNDE1NjQ5MzUy.html">James Cameron:&lt;阿凡达>之前的好奇小男孩</a></p>
+
+<p>Failure is an option, but fear is not.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2012/07/16/kindle-resource/">Kindle Resource</a></h1>
     
     
@@ -94,7 +168,8 @@
   </header>
 
 
-  <div class="entry-content"><p><a href="/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></p>
+  <div class="entry-content"><p><a href="/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a>
+<a href="/attach/GRE_reading_36.pdf">GRE阅读</a></p>
 </div>
   
   
@@ -151,7 +226,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/07/14/read-7-dot-14/">Read 7.14</a></h1>
+      <h1 class="entry-title"><a href="/blog/2012/07/14/paper-reading/">Read 7.14</a></h1>
     
     
       <p class="meta">
@@ -174,7 +249,9 @@
   </header>
 
 
-  <div class="entry-content"><h2>Fixations on low-resolution images</h2>
+  <div class="entry-content"><h1>July.14</h1>
+
+<h2>Fixations on low-resolution images</h2>
 
 <p>Are these fixations likely to land at the same locations as the actual objects of interest in the high-
 resolution images?</p>
@@ -186,6 +263,34 @@ resolution images?</p>
 <p>center bias的现象是否和中央感受野的密度比较大有关系？</p>
 
 <h2>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION</h2>
+
+<h1>July.15</h1>
+
+<h2>Face Recognition with Local Binary Patterns</h2>
+
+<ul>
+<li>small regions from which lbp histograms are extracted</li>
+<li>use nearest neighbor classifier</li>
+<li>Chi-square as dissimilarity measure</li>
+</ul>
+
+
+<p>original LBP, introduced by Ojala et al. , is a means of texture description</p>
+
+<p>uniform pattern</p>
+
+<h2>three levels of representation</h2>
+
+<ul>
+<li>pixel level</li>
+<li>patch level</li>
+<li>holistic level</li>
+</ul>
+
+
+<p>three dissimilarity measurements</p>
+
+<h2>parameters</h2>
 </div>
   
   
@@ -480,137 +585,6 @@ Science: Fact driven</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/29/difference-between-cygwin-and-mingw/">Difference Between Cygwin and Mingw</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-29T10:44:00+08:00" pubdate data-updated="true">Jun 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is not very related to the topic of this blog. But I often came across with problem to distinguish those two, so I left the anwser here for reference.</p>
-
-<p>This answer is from <a href="http://stackoverflow.com/questions/771756/what-is-the-difference-between-cygwin-and-mingw">stackoverflow</a></p>
-
-<blockquote><p>cygwin is an attempt to create a complete UNIX/POSIX environment on Windows. To do this it uses various DLLs that unfortunately have a user-unfriendly license. MinGW is a C/C++ compiler suite which allows you to create Windows executables without dependancy on such DLLs - you only need the normal MSVC runtimes.</p>
-
-<p>You can also get a small UNIX/POSIX like environment, compiled with MinGW called MSYS. It doesn&#8217;t have anywhere near all the features of Cygwin, but is ideal for programmers wanting to use MinGW.</p></blockquote>
-
-<p>An alternative answer</p>
-
-<blockquote><p>Fairly simple:</p>
-
-<p>Compile something in Cygwin and you are compiling it for Cygwin.
-Compile something in MingW and you are compiling it for Windows.
-Cygwin is good when your app absolutely needs a POSIX environment to run - it is sometimes easier to port something to Cygwin than it is to port it to Windows, because Cygwin is a layer on top of Windows that emulates a POSIX environment. If you compile something for Cygwin then it will need to be run within the Cygwin environment, as provided by cygwin1.dll. For portability, you could distribute this dll with your project, if you were willing to comply with the relevant license.</p>
-
-<p>MingW is a Windows port of the GNU compiler tools, like GCC, Make, Bash, etc, which run directly in Windows without any emulation layer. By default it will compile to a native Win32 target, complete with .exe and .dll files, though you could also cross-compile with the right settings. It is an alternative to Microsoft Visual C compiler and its associated linking/make tools in a way.</p></blockquote>
-
-<p>In conclusion:</p>
-
-<ul>
-<li>cygwin emulates posix system</li>
-<li>mingw compiles linux code in windows</li>
-</ul>
-
-
-<h1>Update</h1>
-
-<p>After comparsion, I choose cygwin for the posix-like system for server.</p>
-
-<p>Which I needed for server is rsync and git.</p>
-
-<p>cygwin maybe slower than mingw, but it provides a package management system, which is really handy.</p>
-
-<p>This is some usefull link for cygwin</p>
-
-<ul>
-<li><a href="http://fir3net.com/Cygwin/cygwin-package-installation.html">apt-cyg</a></li>
-</ul>
-
-
-<p>Basic requirement for apt-cyg to work is<br/>
-<code>setup.exe -q -P  wget,tar,qawk,bzip2,subversion,vim</code></p>
-
-<p>plus
-* git
-* openssh
-* rsync</p>
-
-<h2>Openssh config</h2>
-
-<p>After installation of openssh, should run <code>ssh-host-config</code> to config sshd service. After configuration, run <code>net start sshd</code> to start ssh service.</p>
-
-<h2>rsync config and tutorial</h2>
-
-<p>Rsync is especially useful when I want to keep the three servers be in the same state.</p>
-
-<p>Here is a <a href="http://everythinglinux.org/rsync/">tutorial</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/29/aaai-membership/">AAAI Membership</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-29T10:20:00+08:00" pubdate data-updated="true">Jun 29<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Just got one year membership of AAAI.</p>
-
-<p>This is because the popular online open course &#8220;Introduction to artificial intelligence&#8221; taught by <a href="author:peter_norvig">Peter Norvig</a> and <a href="author:sebastian_thurun">Sebastian Thurun</a>. Before the beginning of this course, I saw a post told that those students who rank 10% of this course will be give AAAI membership for reward. I just took this as a rumor and use this to encourage myself to study hard in this course. Now months after this course, when I thought this is a real rumor, I got a mail told me that I am given a one year membership. That&#8217;s really a good gift, lol.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -626,6 +600,14 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/07/16/linux-tips/">Linux tips</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/16/ted-list/">Ted list</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/07/16/kindle-resource/">Kindle resource</a>
       </li>
     
@@ -634,15 +616,7 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
       </li>
     
       <li class="post">
-        <a href="/blog/2012/07/14/read-7-dot-14/">Read 7.14</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/07/14/ji-lu-pian/">纪录片</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/07/09/intro-to-biological-vision/">Intro to biological vision</a>
+        <a href="/blog/2012/07/14/paper-reading/">Read 7.14</a>
       </li>
     
   </ul>

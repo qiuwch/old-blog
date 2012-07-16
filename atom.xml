@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-16T10:47:36+08:00</updated>
+  <updated>2012-07-16T18:26:55+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -14,11 +14,32 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Linux tips]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/linux-tips/"/>
+    <updated>2012-07-16T14:31:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/linux-tips</id>
+    <content type="html"><![CDATA[<p><a href="http://www.dutor.net/index.php/2010/10/toolkits-xclip-x-clipboard/">Xclip与Clipboard的区别</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ted list]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/ted-list/"/>
+    <updated>2012-07-16T12:26:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/ted-list</id>
+    <content type="html"><![CDATA[<p><a href="http://v.youku.com/v_show/id_XNDE1NjQ5MzUy.html">James Cameron:&lt;阿凡达>之前的好奇小男孩</a></p>
+
+<p>Failure is an option, but fear is not.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Kindle resource]]></title>
     <link href="http://qiuwch.github.com/blog/2012/07/16/kindle-resource/"/>
     <updated>2012-07-16T10:19:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/16/kindle-resource</id>
-    <content type="html"><![CDATA[<p><a href="http://qiuwch.github.com/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></p>
+    <content type="html"><![CDATA[<p><a href="http://qiuwch.github.com/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a>
+<a href="http://qiuwch.github.com/attach/GRE_reading_36.pdf">GRE阅读</a></p>
 ]]></content>
   </entry>
   
@@ -41,10 +62,12 @@
   
   <entry>
     <title type="html"><![CDATA[Read 7.14]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/07/14/read-7-dot-14/"/>
+    <link href="http://qiuwch.github.com/blog/2012/07/14/paper-reading/"/>
     <updated>2012-07-14T19:41:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/07/14/read-7-dot-14</id>
-    <content type="html"><![CDATA[<h2>Fixations on low-resolution images</h2>
+    <id>http://qiuwch.github.com/blog/2012/07/14/paper-reading</id>
+    <content type="html"><![CDATA[<h1>July.14</h1>
+
+<h2>Fixations on low-resolution images</h2>
 
 <p>Are these fixations likely to land at the same locations as the actual objects of interest in the high-
 resolution images?</p>
@@ -56,6 +79,34 @@ resolution images?</p>
 <p>center bias的现象是否和中央感受野的密度比较大有关系？</p>
 
 <h2>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION</h2>
+
+<h1>July.15</h1>
+
+<h2>Face Recognition with Local Binary Patterns</h2>
+
+<ul>
+<li>small regions from which lbp histograms are extracted</li>
+<li>use nearest neighbor classifier</li>
+<li>Chi-square as dissimilarity measure</li>
+</ul>
+
+
+<p>original LBP, introduced by Ojala et al. , is a means of texture description</p>
+
+<p>uniform pattern</p>
+
+<h2>three levels of representation</h2>
+
+<ul>
+<li>pixel level</li>
+<li>patch level</li>
+<li>holistic level</li>
+</ul>
+
+
+<p>three dissimilarity measurements</p>
+
+<h2>parameters</h2>
 ]]></content>
   </entry>
   
@@ -508,87 +559,6 @@ for detail explanation.</p>
     <updated>2012-06-18T10:45:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind</id>
     <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[project report]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/project-report/"/>
-    <updated>2012-06-17T19:39:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/project-report</id>
-    <content type="html"><![CDATA[<p>meeno
-短信便签</p>
-
-<p>自动短信筛选
-号码和内容</p>
-
-<p>micro starwar</p>
-
-<p>Tuudo
-滑动
-any.do</p>
-
-<p>wifile
-能够建立热点
-没有客户端
-整块的背景图片</p>
-
-<p>Check of Fuubo
-速度太慢</p>
-
-<p>图片墙
-网速，版权
-核心问题
-PM要懂技术
-轻博客</p>
-
-<p>Euuro</p>
-
-<p>intra分享</p>
-
-<p>kong miao</p>
-
-<p>nap time</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[about recent work]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/about-recent-work/"/>
-    <updated>2012-06-17T03:30:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/about-recent-work</id>
-    <content type="html"><![CDATA[<h2>关于近期工作的吐槽</h2>
-
-<p>转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的</p>
-
-<ul>
-<li>motion segmentation</li>
-<li>人脸识别</li>
-<li>data skeleton</li>
-</ul>
-
-
-<p>倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课</p>
-
-<p>晚上和bai为了暑假课程的事情争了很久，他说得有几点我是认同的</p>
-
-<ul>
-<li>想做的太大太远</li>
-<li>对于研究生时间不允许，要尽快出成果</li>
-</ul>
-
-
-<h2>未来的时间安排</h2>
-
-<p>刚进实验室的时候总还觉得时间很多，可是转眼研究生一年级就快结束了．</p>
-
-<p>下学期开学以后马上要忙的事是研究生的开题和12月的GRE．开题如果还拿不出一个很明确的方向的话，到时候又会非常的被动．</p>
-
-<p>因此暑假的工作显得尤其重要，除了抽空背背单词，其他的时间应该都是在想idea，做实验，灌水．</p>
-
-<p>其实计算机视觉远没有当初想的那么神秘和神圣，真想做科研还是去做认知科学的好．可是就如bai说的，现在根本还没有那个资本．连bai这样的学者都不能满意的学生，又如何去顶级的学术机构做科研的．不如花这两个月的时间，为自己积累些说话的资本，后期的发展也会顺一些．</p>
-
-<p>ICPR没中其实完全没有出乎意料，临时赶出来的第一稿的draft要是能中才意外了．不过从实验室中的三篇来看，似乎创新性都不高，灌水并没有想象中的困难．</p>
 ]]></content>
   </entry>
   

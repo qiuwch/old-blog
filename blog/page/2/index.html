@@ -9,9 +9,7 @@
   <meta name="author" content="Weichao Qiu">
 
   
-  <meta name="description" content="Book David Marr - Vision Paper McLab paper Skim mclab paper Face recognition Thesis paper of Shan [Done]
-Random projection tree
-Deep learning for &hellip;">
+  <meta name="description" content="This is not very related to the topic of this blog. But I often came across with problem to distinguish those two, so I left the anwser here for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +64,137 @@ Deep learning for &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/29/difference-between-cygwin-and-mingw/">Difference Between Cygwin and Mingw</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-29T10:44:00+08:00" pubdate data-updated="true">Jun 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is not very related to the topic of this blog. But I often came across with problem to distinguish those two, so I left the anwser here for reference.</p>
+
+<p>This answer is from <a href="http://stackoverflow.com/questions/771756/what-is-the-difference-between-cygwin-and-mingw">stackoverflow</a></p>
+
+<blockquote><p>cygwin is an attempt to create a complete UNIX/POSIX environment on Windows. To do this it uses various DLLs that unfortunately have a user-unfriendly license. MinGW is a C/C++ compiler suite which allows you to create Windows executables without dependancy on such DLLs - you only need the normal MSVC runtimes.</p>
+
+<p>You can also get a small UNIX/POSIX like environment, compiled with MinGW called MSYS. It doesn&#8217;t have anywhere near all the features of Cygwin, but is ideal for programmers wanting to use MinGW.</p></blockquote>
+
+<p>An alternative answer</p>
+
+<blockquote><p>Fairly simple:</p>
+
+<p>Compile something in Cygwin and you are compiling it for Cygwin.
+Compile something in MingW and you are compiling it for Windows.
+Cygwin is good when your app absolutely needs a POSIX environment to run - it is sometimes easier to port something to Cygwin than it is to port it to Windows, because Cygwin is a layer on top of Windows that emulates a POSIX environment. If you compile something for Cygwin then it will need to be run within the Cygwin environment, as provided by cygwin1.dll. For portability, you could distribute this dll with your project, if you were willing to comply with the relevant license.</p>
+
+<p>MingW is a Windows port of the GNU compiler tools, like GCC, Make, Bash, etc, which run directly in Windows without any emulation layer. By default it will compile to a native Win32 target, complete with .exe and .dll files, though you could also cross-compile with the right settings. It is an alternative to Microsoft Visual C compiler and its associated linking/make tools in a way.</p></blockquote>
+
+<p>In conclusion:</p>
+
+<ul>
+<li>cygwin emulates posix system</li>
+<li>mingw compiles linux code in windows</li>
+</ul>
+
+
+<h1>Update</h1>
+
+<p>After comparsion, I choose cygwin for the posix-like system for server.</p>
+
+<p>Which I needed for server is rsync and git.</p>
+
+<p>cygwin maybe slower than mingw, but it provides a package management system, which is really handy.</p>
+
+<p>This is some usefull link for cygwin</p>
+
+<ul>
+<li><a href="http://fir3net.com/Cygwin/cygwin-package-installation.html">apt-cyg</a></li>
+</ul>
+
+
+<p>Basic requirement for apt-cyg to work is<br/>
+<code>setup.exe -q -P  wget,tar,qawk,bzip2,subversion,vim</code></p>
+
+<p>plus
+* git
+* openssh
+* rsync</p>
+
+<h2>Openssh config</h2>
+
+<p>After installation of openssh, should run <code>ssh-host-config</code> to config sshd service. After configuration, run <code>net start sshd</code> to start ssh service.</p>
+
+<h2>rsync config and tutorial</h2>
+
+<p>Rsync is especially useful when I want to keep the three servers be in the same state.</p>
+
+<p>Here is a <a href="http://everythinglinux.org/rsync/">tutorial</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/29/aaai-membership/">AAAI Membership</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-29T10:20:00+08:00" pubdate data-updated="true">Jun 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Just got one year membership of AAAI.</p>
+
+<p>This is because the popular online open course &#8220;Introduction to artificial intelligence&#8221; taught by <a href="author:peter_norvig">Peter Norvig</a> and <a href="author:sebastian_thurun">Sebastian Thurun</a>. Before the beginning of this course, I saw a post told that those students who rank 10% of this course will be give AAAI membership for reward. I just took this as a rumor and use this to encourage myself to study hard in this course. Now months after this course, when I thought this is a real rumor, I got a mail told me that I am given a one year membership. That&#8217;s really a good gift, lol.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -506,141 +635,6 @@ for detail explanation.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/17/project-report/">Project Report</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-17T19:39:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>meeno
-短信便签</p>
-
-<p>自动短信筛选
-号码和内容</p>
-
-<p>micro starwar</p>
-
-<p>Tuudo
-滑动
-any.do</p>
-
-<p>wifile
-能够建立热点
-没有客户端
-整块的背景图片</p>
-
-<p>Check of Fuubo
-速度太慢</p>
-
-<p>图片墙
-网速，版权
-核心问题
-PM要懂技术
-轻博客</p>
-
-<p>Euuro</p>
-
-<p>intra分享</p>
-
-<p>kong miao</p>
-
-<p>nap time</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/17/about-recent-work/">About Recent Work</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-17T03:30:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>关于近期工作的吐槽</h2>
-
-<p>转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的</p>
-
-<ul>
-<li>motion segmentation</li>
-<li>人脸识别</li>
-<li>data skeleton</li>
-</ul>
-
-
-<p>倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课</p>
-
-<p>晚上和bai为了暑假课程的事情争了很久，他说得有几点我是认同的</p>
-
-<ul>
-<li>想做的太大太远</li>
-<li>对于研究生时间不允许，要尽快出成果</li>
-</ul>
-
-
-<h2>未来的时间安排</h2>
-
-<p>刚进实验室的时候总还觉得时间很多，可是转眼研究生一年级就快结束了．</p>
-
-<p>下学期开学以后马上要忙的事是研究生的开题和12月的GRE．开题如果还拿不出一个很明确的方向的话，到时候又会非常的被动．</p>
-
-<p>因此暑假的工作显得尤其重要，除了抽空背背单词，其他的时间应该都是在想idea，做实验，灌水．</p>
-
-<p>其实计算机视觉远没有当初想的那么神秘和神圣，真想做科研还是去做认知科学的好．可是就如bai说的，现在根本还没有那个资本．连bai这样的学者都不能满意的学生，又如何去顶级的学术机构做科研的．不如花这两个月的时间，为自己积累些说话的资本，后期的发展也会顺一些．</p>
-
-<p>ICPR没中其实完全没有出乎意料，临时赶出来的第一稿的draft要是能中才意外了．不过从实验室中的三篇来看，似乎创新性都不高，灌水并没有想象中的困难．</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -658,6 +652,14 @@ PM要懂技术
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/07/16/linux-tips/">Linux tips</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/16/ted-list/">Ted list</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/07/16/kindle-resource/">Kindle resource</a>
       </li>
     
@@ -666,15 +668,7 @@ PM要懂技术
       </li>
     
       <li class="post">
-        <a href="/blog/2012/07/14/read-7-dot-14/">Read 7.14</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/07/14/ji-lu-pian/">纪录片</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/07/09/intro-to-biological-vision/">Intro to biological vision</a>
+        <a href="/blog/2012/07/14/paper-reading/">Read 7.14</a>
       </li>
     
   </ul>
