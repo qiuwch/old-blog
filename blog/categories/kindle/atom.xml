@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: kindle | Review of AI]]></title>
+  <link href="http://qiuwch.github.com/blog/categories/kindle/atom.xml" rel="self"/>
+  <link href="http://qiuwch.github.com/"/>
+  <updated>2012-07-16T10:47:36+08:00</updated>
+  <id>http://qiuwch.github.com/</id>
+  <author>
+    <name><![CDATA[Weichao Qiu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Kindle resource]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/kindle-resource/"/>
+    <updated>2012-07-16T10:19:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/kindle-resource</id>
+    <content type="html"><![CDATA[<p><a href="/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></p>
+]]></content>
+  </entry>
+  
+</feed>

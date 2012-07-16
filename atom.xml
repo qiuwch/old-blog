@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-15T16:51:14+08:00</updated>
+  <updated>2012-07-16T10:47:36+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kindle resource]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/kindle-resource/"/>
+    <updated>2012-07-16T10:19:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/kindle-resource</id>
+    <content type="html"><![CDATA[<p><a href="http://qiuwch.github.com/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sandbox]]></title>
@@ -57,6 +66,27 @@ resolution images?</p>
     <id>http://qiuwch.github.com/blog/2012/07/14/ji-lu-pian</id>
     <content type="html"><![CDATA[<p><a href="http://tv.sohu.com/20120711/n347902762.shtml">纪录片:金钱一代 关于中国的巨富阶层的调查纪录片</a>
 远大集团-张跃</p>
+
+<p>中国经济发展的内在动力在哪里，中国的经济发展是否会硬着陆？</p>
+
+<p>是出口，科技发展，还是资源再分配。</p>
+
+<p>村子理论，村子里的人要想有钱，有三种办法，一种是自己种更多的粮食，一种是抢别人的，一种是做生意。</p>
+
+<p>第一种是科技发展，第二种是战争，第三种是出口贸易。</p>
+
+<p>内部的资源再分配过程可以推动GDP的增长，产生了交易行为。</p>
+
+<ul>
+<li>GDP是怎么计算的</li>
+</ul>
+
+
+<p>GDP, the measure of an economy adopted by the United States in 1991</p>
+
+<p>The total market values of goods and services produced by workers and capital within a nation&#8217;s borders during a given period.</p>
+
+<p>(from Wolfram alpha)</p>
 
 <p>[道兰][NHK纪录片]IT世代-改变未来的年轻一代</p>
 ]]></content>
@@ -559,20 +589,6 @@ PM要懂技术
 <p>其实计算机视觉远没有当初想的那么神秘和神圣，真想做科研还是去做认知科学的好．可是就如bai说的，现在根本还没有那个资本．连bai这样的学者都不能满意的学生，又如何去顶级的学术机构做科研的．不如花这两个月的时间，为自己积累些说话的资本，后期的发展也会顺一些．</p>
 
 <p>ICPR没中其实完全没有出乎意料，临时赶出来的第一稿的draft要是能中才意外了．不过从实验室中的三篇来看，似乎创新性都不高，灌水并没有想象中的困难．</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Paper list for mclab hust]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust/"/>
-    <updated>2012-06-17T00:34:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust</id>
-    <content type="html"><![CDATA[<ul>
-<li><a href="">Unsupervised Metric Fusion by Cross Diffusion</a> Bo Wang</li>
-<li><a href="">Fan Shape Model for Object Detection</a> Xinggang Wang</li>
-<li><a href="">Detecting Texts of Arbitrary Orientations in Natural Images</a> Cong Yao</li>
-</ul>
-
 ]]></content>
   </entry>
   
