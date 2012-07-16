@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-16T18:26:55+08:00</updated>
+  <updated>2012-07-16T18:54:22+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -57,6 +57,22 @@
 <p>Image tag</p>
 
 <p><img src="http://qiuwch.github.com/images/CCT/CCT1ComputersFreeWill.jpg" title="TestImage.png" ></p>
+
+<h2>Equations</h2>
+
+<p><a href="http://greglus.com/blog/2011/11/29/integrate-MathJax-LaTeX-and-MathML-Markup-in-Octopress/">Octopress configuration to support math</a></p>
+
+<p>This is the simplest way I found.</p>
+
+<p>This is an equation</p>
+
+<div markdown="0">
+
+\[ 
+x^2 + y^2 = z^2 
+\]
+</div>
+
 ]]></content>
   </entry>
   
