@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-17T13:11:48+08:00</updated>
+  <updated>2012-07-17T14:29:03+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -82,8 +82,11 @@
     <link href="http://qiuwch.github.com/blog/2012/07/16/kindle-resource/"/>
     <updated>2012-07-16T10:19:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/16/kindle-resource</id>
-    <content type="html"><![CDATA[<p><a href="http://qiuwch.github.com/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a>
-<a href="http://qiuwch.github.com/attach/GRE_reading_36.pdf">GRE阅读</a></p>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://qiuwch.github.com/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></li>
+<li><a href="http://qiuwch.github.com/attach/GRE_reading_36.pdf">GRE阅读</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -100,7 +103,10 @@
 
 <p>Image tag</p>
 
-<p><img src="http://qiuwch.github.com/images/CCT/CCT1ComputersFreeWill.jpg" title="TestImage.png" ></p>
+<pre><code>&lt;img src="http://qiuwch.github.com/images/CCT/CCT1ComputersFreeWill.jpg" title="TestImage.png" &gt;
+</code></pre>
+
+<p><img src="http://qiuwch.github.com/images/SandboxImage.gif" title="This is a small image" ></p>
 
 <h2>Equations</h2>
 
@@ -121,15 +127,14 @@ x^2 + y^2 = z^2
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Read 7.14]]></title>
+    <title type="html"><![CDATA[Paper reading]]></title>
     <link href="http://qiuwch.github.com/blog/2012/07/14/paper-reading/"/>
     <updated>2012-07-14T19:41:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/14/paper-reading</id>
-    <content type="html"><![CDATA[<p>=======</p>
+    <content type="html"><![CDATA[<h1>July.14</h1>
 
-<h1>July.14</h1>
-
-<h2>Fixations on low-resolution images</h2>
+<pre><code>Fixations on low-resolution images
+</code></pre>
 
 <p>Are these fixations likely to land at the same locations as the actual objects of interest in the high-
 resolution images?</p>
@@ -140,13 +145,13 @@ resolution images?</p>
 
 <p>center bias的现象是否和中央感受野的密度比较大有关系？</p>
 
-<h2>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION</h2>
-
-<p>=======</p>
+<pre><code>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION
+</code></pre>
 
 <h1>July.16</h1>
 
-<h2>Face Recognition with Local Binary Patterns</h2>
+<pre><code>Face Recognition with Local Binary Patterns
+</code></pre>
 
 <ul>
 <li>small regions from which lbp histograms are extracted</li>
@@ -172,11 +177,13 @@ resolution images?</p>
 
 <h2>parameters</h2>
 
-<h2>Global Contrast based Salient Region Detection</h2>
+<pre><code>Global Contrast based Salient Region Detection
+</code></pre>
 
 <p>Saliency的检测方法，不是使用saliency进行物体检测</p>
 
-<h2>Computational versus Psychophysical Bottom-Up Image Saliency:A Comparative Evaluation Study</h2>
+<pre><code>Computational versus Psychophysical Bottom-Up Image Saliency:A Comparative Evaluation Study
+</code></pre>
 ]]></content>
   </entry>
   
@@ -185,8 +192,9 @@ resolution images?</p>
     <link href="http://qiuwch.github.com/blog/2012/07/14/ji-lu-pian/"/>
     <updated>2012-07-14T19:33:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/14/ji-lu-pian</id>
-    <content type="html"><![CDATA[<p><a href="http://tv.sohu.com/20120711/n347902762.shtml">纪录片:金钱一代 关于中国的巨富阶层的调查纪录片</a>
-远大集团-张跃</p>
+    <content type="html"><![CDATA[<p><a href="http://tv.sohu.com/20120711/n347902762.shtml">纪录片:金钱一代 关于中国的巨富阶层的调查纪录片</a></p>
+
+<p>远大集团-张跃</p>
 
 <p>中国经济发展的内在动力在哪里，中国的经济发展是否会硬着陆？</p>
 
@@ -209,7 +217,7 @@ resolution images?</p>
 
 <p>(from Wolfram alpha)</p>
 
-<p>[道兰][NHK纪录片]IT世代-改变未来的年轻一代</p>
+<p><a href="http://v.youku.com/v_show/id_XMTg5NTU4MjI0.html">[道兰][NHK纪录片]IT世代-改变未来的年轻一代</a></p>
 ]]></content>
   </entry>
   
@@ -381,10 +389,14 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
 <p>Basic requirement for apt-cyg to work is<br/>
 <code>setup.exe -q -P  wget,tar,qawk,bzip2,subversion,vim</code></p>
 
-<p>plus
-* git
-* openssh
-* rsync</p>
+<p>plus</p>
+
+<ul>
+<li>git</li>
+<li>openssh</li>
+<li>rsync</li>
+</ul>
+
 
 <h2>Openssh config</h2>
 

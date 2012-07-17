@@ -4,7 +4,7 @@
   <title><![CDATA[Category: kindle | Review of AI]]></title>
   <link href="http://qiuwch.github.com/blog/categories/kindle/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-17T13:11:48+08:00</updated>
+  <updated>2012-07-17T14:29:03+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -18,8 +18,11 @@
     <link href="http://qiuwch.github.com/blog/2012/07/16/kindle-resource/"/>
     <updated>2012-07-16T10:19:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/16/kindle-resource</id>
-    <content type="html"><![CDATA[<p><a href="/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a>
-<a href="/attach/GRE_reading_36.pdf">GRE阅读</a></p>
+    <content type="html"><![CDATA[<ul>
+<li><a href="/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></li>
+<li><a href="/attach/GRE_reading_36.pdf">GRE阅读</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
