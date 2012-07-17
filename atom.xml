@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-16T18:54:22+08:00</updated>
+  <updated>2012-07-17T13:11:48+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -14,11 +14,55 @@
 
   
   <entry>
+    <title type="html"><![CDATA[bookmark]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/bookmark/"/>
+    <updated>2012-07-16T20:15:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/bookmark</id>
+    <content type="html"><![CDATA[<p><a href="http://zh.wikipedia.org/wiki/%E4%B8%9C%E4%BA%AC%E9%93%81%E5%A1%94">东京铁塔</a></p>
+
+<p><a href="http://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%A9%BA%E6%A8%B9">東京晴空塔</a></p>
+
+<p><a href="http://zh.wikipedia.org/wiki/%E5%93%88%E9%87%8C%E7%99%BC%E5%A1%94">哈里發塔</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Better relaxation]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/better-relaxation/"/>
+    <updated>2012-07-16T19:07:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/better-relaxation</id>
+    <content type="html"><![CDATA[<p>I am trying to find better way of ralaxation than weibo and renren for many months.</p>
+
+<ul>
+<li>yinyuetai</li>
+<li>quora</li>
+<li>douban</li>
+<li>google reader</li>
+<li>journal of vision</li>
+<li>twitter</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Linux tips]]></title>
     <link href="http://qiuwch.github.com/blog/2012/07/16/linux-tips/"/>
     <updated>2012-07-16T14:31:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/16/linux-tips</id>
     <content type="html"><![CDATA[<p><a href="http://www.dutor.net/index.php/2010/10/toolkits-xclip-x-clipboard/">Xclip与Clipboard的区别</a></p>
+
+<p><a href="http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/">Use github to manage dotfiles</a></p>
+
+<p><a href="http://planet.linuxdeepin.com/2012/03/02/deepin-scrot-2-0-video-and-install-in-ubuntu/">Linux截图工具- scrot</a></p>
+
+<h1>emacs</h1>
+
+<p><a href="https://github.com/dimitri/el-get">el-get</a></p>
+
+<h1>Git</h1>
+
+<p><a href="githowto.com">Git tutorial</a></p>
 ]]></content>
   </entry>
   
@@ -81,7 +125,9 @@ x^2 + y^2 = z^2
     <link href="http://qiuwch.github.com/blog/2012/07/14/paper-reading/"/>
     <updated>2012-07-14T19:41:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/14/paper-reading</id>
-    <content type="html"><![CDATA[<h1>July.14</h1>
+    <content type="html"><![CDATA[<p>=======</p>
+
+<h1>July.14</h1>
 
 <h2>Fixations on low-resolution images</h2>
 
@@ -96,7 +142,9 @@ resolution images?</p>
 
 <h2>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION</h2>
 
-<h1>July.15</h1>
+<p>=======</p>
+
+<h1>July.16</h1>
 
 <h2>Face Recognition with Local Binary Patterns</h2>
 
@@ -123,6 +171,12 @@ resolution images?</p>
 <p>three dissimilarity measurements</p>
 
 <h2>parameters</h2>
+
+<h2>Global Contrast based Salient Region Detection</h2>
+
+<p>Saliency的检测方法，不是使用saliency进行物体检测</p>
+
+<h2>Computational versus Psychophysical Bottom-Up Image Saliency:A Comparative Evaluation Study</h2>
 ]]></content>
   </entry>
   
@@ -436,6 +490,8 @@ Can human explictly model the 3d model of face.</p>
 <p><a href="%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E7%90%86%E8%AE%BA%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6_%E5%B1%B1%E4%B8%96%E5%85%89">Chinese survey</a></p>
 
 <p><a href="http://www.mathworks.com/matlabcentral/fileexchange/26523-the-inface-toolbox-v2-0-for-illumination-invariant-face-recognition">Matlab illumination toolbox</a></p>
+
+<p><a href="http://www.cs.colostate.edu/evalfacerec/index10.php">Evaluation of Face Recognition Algorithms by CSU</a></p>
 ]]></content>
   </entry>
   
@@ -485,96 +541,6 @@ Once I tried python-qt, but this seems not very friendly and elegant.</p>
 <p>产品应用范围包括走失小孩的追踪，手机的追踪，被盗自行车的追踪。危险设备，例如枪支的追踪等。</p>
 
 <p>目前淘宝上的产品主要是使用GPS的方式追踪，对于电量的问题都无法解决。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[C++ memory leak problem]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/"/>
-    <updated>2012-06-18T16:02:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem</id>
-    <content type="html"><![CDATA[<p>There is a trouble puzzled me for a long time.</p>
-
-<p>I implemented a simple matrix class.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
-</span><span class='line'><span class="k">class</span> <span class="nc">matrix_t</span>
-</span><span class='line'><span class="p">{</span>
-</span><span class='line'><span class="k">public</span><span class="o">:</span>
-</span><span class='line'>  <span class="n">matrix_t</span><span class="p">(</span><span class="kt">int</span> <span class="n">rows</span><span class="p">,</span> <span class="kt">int</span> <span class="n">cols</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>  <span class="p">{</span>
-</span><span class='line'>      <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;construct.&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">width_</span> <span class="o">=</span> <span class="n">cols</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">height_</span> <span class="o">=</span> <span class="n">rows</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">len_</span> <span class="o">=</span> <span class="n">cols</span> <span class="o">*</span> <span class="n">rows</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">[</span><span class="n">len_</span><span class="p">];</span>
-</span><span class='line'>      <span class="n">memset</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="o">*</span> <span class="n">len_</span><span class="p">);</span> <span class="c1">// Important!</span>
-</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>      <span class="p">{</span>
-</span><span class='line'>          <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-</span><span class='line'>      <span class="p">}</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'><span class="p">};</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>which is really simple and nothing special (maybo not elegant at all :P).</p>
-
-<p>But when I try to use, I found when I use syntax like:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matirx_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
-
-<p>when I finished a copy constructor, more problem came out.</p>
-
-<p>When I try</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matrix_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
-for detail explanation.</p>
-
-<p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[how to use valgrind]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/"/>
-    <updated>2012-06-18T10:45:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   

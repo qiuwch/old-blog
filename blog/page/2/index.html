@@ -9,7 +9,9 @@
   <meta name="author" content="Weichao Qiu">
 
   
-  <meta name="description" content="This is not very related to the topic of this blog. But I often came across with problem to distinguish those two, so I left the anwser here for &hellip;">
+  <meta name="description" content="Need update branch
+submodule nest git project
+remote ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +69,107 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/01/git-advanced-usage/">Git Advanced Usage</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-01T10:38:00+08:00" pubdate data-updated="true">Jul 1<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Need update</p>
+
+<ul>
+<li>branch</li>
+<li>submodule <code>nest git project</code></li>
+<li>remote</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/01/stop-doing-meaningless-job/">Stop Doing Meaningless Job</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-01T08:57:00+08:00" pubdate data-updated="true">Jul 1<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Meaningless job, Huh, That&#8217;s a difficult term to define.</p>
+
+<p>This is idea came across to me when I was dealing with my debian distribution. After many hours effortless struggle trying to make gnome-shell running, I felt I was really doing some meaningless job.</p>
+
+<p>Actually, I think I know the right way to deal with this technical issue. Maybe I should read the documentation and wiki provided by gnome team carefully. Try to use gdb to debug the crash problem. Or read the code carefully to distinguish the problem.</p>
+
+<p>But I choose a much lazier way, just reading the error log, purge installation, reinstall and hope it can work again. But the result is waste of many hours and learned little.</p>
+
+<p>In Chinese, this is called &#8220;折腾&#8221;. I chose linux as my working environment hoping that it can boost my working efficiency, but actually I wasted many time to make it work right.</p>
+
+<p>To deal with this kind of stuff, I think the right way to deal with it is:</p>
+
+<ul>
+<li>First, make sure if this kind of thing is really worth your time.</li>
+<li>Can you find a replacement of this software or you really need to fix it.</li>
+<li>Can you learn something from fixing those kind of stuff, in which way can you learn more?</li>
+<li>Plan the procedure and give youself some time limit.</li>
+</ul>
+
+
+<p>Actually, in our lifetime, there are many things like this wasting our time. Something we think really cool but worth little, or something you can do well so you want to repeat it again and again. There is a word <em>comfort zone</em>. It&#8217;s dangerous for us to stay in our comfort zone, and we should try to challenge us constantly and learn new stuff.</p>
+
+<p><em>Reading, thinking, coding</em> can benefit more for you, though sometimes they&#8217;re not that interesting and really time consuming.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -357,6 +460,8 @@ Can human explictly model the 3d model of face.</p>
 <p><a href="%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E7%90%86%E8%AE%BA%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6_%E5%B1%B1%E4%B8%96%E5%85%89">Chinese survey</a></p>
 
 <p><a href="http://www.mathworks.com/matlabcentral/fileexchange/26523-the-inface-toolbox-v2-0-for-illumination-invariant-face-recognition">Matlab illumination toolbox</a></p>
+
+<p><a href="http://www.cs.colostate.edu/evalfacerec/index10.php">Evaluation of Face Recognition Algorithms by CSU</a></p>
 </div>
   
   
@@ -494,150 +599,6 @@ Once I tried python-qt, but this seems not very friendly and elegant.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/18/c-plus-plus-memory-leak-problem/">C++ Memory Leak Problem</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-18T16:02:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>There is a trouble puzzled me for a long time.</p>
-
-<p>I implemented a simple matrix class.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
-</span><span class='line'><span class="k">class</span> <span class="nc">matrix_t</span>
-</span><span class='line'><span class="p">{</span>
-</span><span class='line'><span class="k">public</span><span class="o">:</span>
-</span><span class='line'>  <span class="n">matrix_t</span><span class="p">(</span><span class="kt">int</span> <span class="n">rows</span><span class="p">,</span> <span class="kt">int</span> <span class="n">cols</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>  <span class="p">{</span>
-</span><span class='line'>      <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;construct.&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">width_</span> <span class="o">=</span> <span class="n">cols</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">height_</span> <span class="o">=</span> <span class="n">rows</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">len_</span> <span class="o">=</span> <span class="n">cols</span> <span class="o">*</span> <span class="n">rows</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">[</span><span class="n">len_</span><span class="p">];</span>
-</span><span class='line'>      <span class="n">memset</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="o">*</span> <span class="n">len_</span><span class="p">);</span> <span class="c1">// Important!</span>
-</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>      <span class="p">{</span>
-</span><span class='line'>          <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-</span><span class='line'>      <span class="p">}</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'><span class="p">};</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>which is really simple and nothing special (maybo not elegant at all :P).</p>
-
-<p>But when I try to use, I found when I use syntax like:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matirx_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
-
-<p>when I finished a copy constructor, more problem came out.</p>
-
-<p>When I try</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matrix_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
-for detail explanation.</p>
-
-<p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/06/18/how-to-use-valgrind/">How to Use Valgrind</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-18T10:45:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -655,6 +616,14 @@ for detail explanation.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/07/16/bookmark/">bookmark</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/16/better-relaxation/">Better relaxation</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/07/16/linux-tips/">Linux tips</a>
       </li>
     
@@ -664,14 +633,6 @@ for detail explanation.</p>
     
       <li class="post">
         <a href="/blog/2012/07/16/kindle-resource/">Kindle resource</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/07/15/sandbox/">Sandbox</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/07/14/paper-reading/">Read 7.14</a>
       </li>
     
   </ul>
