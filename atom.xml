@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-18T15:25:11+08:00</updated>
+  <updated>2012-07-18T15:29:03+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -103,6 +103,13 @@ component parsing<br/>
 
 <p>给的链接有代码，后两个参考文献里面有链接
 Saliency Detection by Multi-Task Sparsity Pursuit.pdf</p>
+
+<ol>
+<li>Database for Saliency Detection</li>
+</ol>
+
+
+<p><a href="http://www.cim.mcgill.ca/~lijian/database.htm">Link</a></p>
 
 <p><em>three datasets (FiFa, MIT and Bruce datasets)</em></p>
 
