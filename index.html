@@ -129,66 +129,6 @@ PAMI 4.908 6.085 &hellip;">
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/07/18/personal-report/">Personal Report</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-18T14:19:00+08:00" pubdate data-updated="true">Jul 18<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>进度汇报</h1>
-
-<p>一周完成代码<br/>
-一周完成测试<br/>
-尝试整合其他经典算法<br/>
-宋航配合写rptree</p>
-
-<h1>Idea</h1>
-
-<h2>基于Saliency做快速物体检测  </h2>
-
-<p>从saliency的ground truth可以看出</p>
-
-<p>人类是scale invariant，但并不是scale invariant的<br/>
-配图</p>
-
-<h2>用人脸的表示方面来改进人脸识别  </h2>
-
-<p>人类人脸识别的性能，局限性<br/>
-component parsing<br/>
-结合deep learning, 来做人脸识别</p>
-
-<h2>Motion segmentation  </h2>
-
-<p>一些不成熟的idea</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
       <h1 class="entry-title"><a href="/blog/2012/07/18/saliency-resource/">Saliency Resource</a></h1>
     
     
@@ -570,6 +510,94 @@ x^2 + y^2 = z^2
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/14/paper-reading/">Paper Reading</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-14T19:41:00+08:00" pubdate data-updated="true">Jul 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>July.14</h1>
+
+<pre><code>Fixations on low-resolution images
+</code></pre>
+
+<p>Are these fixations likely to land at the same locations as the actual objects of interest in the high-
+resolution images?</p>
+
+<p>saccade和fixation的区别是什么？</p>
+
+<p>能否使用eye fixation的原理做快速的物体检测</p>
+
+<p>center bias的现象是否和中央感受野的密度比较大有关系？</p>
+
+<pre><code>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION
+</code></pre>
+
+<h1>July.16</h1>
+
+<pre><code>Face Recognition with Local Binary Patterns
+</code></pre>
+
+<ul>
+<li>small regions from which lbp histograms are extracted</li>
+<li>use nearest neighbor classifier</li>
+<li>Chi-square as dissimilarity measure</li>
+</ul>
+
+
+<p>original LBP, introduced by Ojala et al. , is a means of texture description</p>
+
+<p>uniform pattern</p>
+
+<h2>three levels of representation</h2>
+
+<ul>
+<li>pixel level</li>
+<li>patch level</li>
+<li>holistic level</li>
+</ul>
+
+
+<p>three dissimilarity measurements</p>
+
+<h2>parameters</h2>
+
+<pre><code>Global Contrast based Salient Region Detection
+</code></pre>
+
+<p>Saliency的检测方法，不是使用saliency进行物体检测</p>
+
+<pre><code>Computational versus Psychophysical Bottom-Up Image Saliency:A Comparative Evaluation Study
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -589,10 +617,6 @@ x^2 + y^2 = z^2
       </li>
     
       <li class="post">
-        <a href="/blog/2012/07/18/personal-report/">personal report</a>
-      </li>
-    
-      <li class="post">
         <a href="/blog/2012/07/18/saliency-resource/">Saliency resource</a>
       </li>
     
@@ -602,6 +626,10 @@ x^2 + y^2 = z^2
     
       <li class="post">
         <a href="/blog/2012/07/16/bookmark/">bookmark</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/16/better-relaxation/">Better relaxation</a>
       </li>
     
   </ul>
