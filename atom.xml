@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-18T15:30:26+08:00</updated>
+  <updated>2012-07-18T15:34:28+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -77,37 +77,25 @@ component parsing<br/>
     <link href="http://qiuwch.github.com/blog/2012/07/18/saliency-resource/"/>
     <updated>2012-07-18T14:06:00+08:00</updated>
     <id>http://qiuwch.github.com/blog/2012/07/18/saliency-resource</id>
-    <content type="html"><![CDATA[<ol>
-<li>MSRA dataset</li>
-</ol>
-
+    <content type="html"><![CDATA[<p>1、 MSRA dataset</p>
 
 <p>Ground truth is boundary</p>
 
 <p><a href="http://ivrg.epfl.ch/supplementary_material/RK_CVPR09/">Link</a></p>
 
-<ol>
-<li>Bruce dataset</li>
-</ol>
-
+<p>2、 Bruce dataset</p>
 
 <p>人眼数据得到，但数据非常杂乱，没有类的概念</p>
 
 <p><a href="http://www-sop.inria.fr/members/Neil.Bruce/">Link</a></p>
 
-<ol>
-<li>MIT dataset</li>
-</ol>
-
+<p>3、 MIT dataset</p>
 
 <p><a href="http://people.csail.mit.edu/tjudd/WherePeopleLook/index.html">Link</a></p>
 
 <p>T. Judd, K. Ehinger, F. Durand, and A. Torralba, “Learning to predict where humans look,” in IEEE International Conference on Computer Vision, 2009</p>
 
-<ol>
-<li>Fifa dataset</li>
-</ol>
-
+<p>4、 Fifa dataset</p>
 
 <p><a href="http://papers.klab.caltech.edu/334/">Link</a></p>
 
@@ -116,10 +104,7 @@ component parsing<br/>
 <p>给的链接有代码，后两个参考文献里面有链接
 Saliency Detection by Multi-Task Sparsity Pursuit.pdf</p>
 
-<ol>
-<li>Database for Saliency Detection</li>
-</ol>
-
+<p>5、 Database for Saliency Detection</p>
 
 <p><a href="http://www.cim.mcgill.ca/~lijian/database.htm">Link</a></p>
 
