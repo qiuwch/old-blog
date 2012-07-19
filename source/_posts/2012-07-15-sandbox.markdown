@@ -16,7 +16,9 @@ Images
 ------
 Image tag
 
-{% img /images/CCT/CCT1ComputersFreeWill.jpg TestImage.png %}
+	{% img /images/CCT/CCT1ComputersFreeWill.jpg TestImage.png %}
+
+{% img /images/SandboxImage.gif This is a small image %}
 
 
 Equations

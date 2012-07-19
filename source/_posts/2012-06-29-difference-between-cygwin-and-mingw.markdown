@@ -46,6 +46,7 @@ Basic requirement for apt-cyg to work is
 `setup.exe -q -P  wget,tar,qawk,bzip2,subversion,vim`
 
 plus
+
 * git
 * openssh
 * rsync

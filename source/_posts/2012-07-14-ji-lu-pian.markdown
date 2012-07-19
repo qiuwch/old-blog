@@ -6,6 +6,7 @@ comments: true
 categories: life
 ---
 [纪录片:金钱一代 关于中国的巨富阶层的调查纪录片](http://tv.sohu.com/20120711/n347902762.shtml)
+
 远大集团-张跃
 
 中国经济发展的内在动力在哪里，中国的经济发展是否会硬着陆？
@@ -27,4 +28,4 @@ The total market values of goods and services produced by workers and capital wi
 (from Wolfram alpha)
 
 
-[道兰][NHK纪录片]IT世代-改变未来的年轻一代
+[[道兰][NHK纪录片]IT世代-改变未来的年轻一代](http://v.youku.com/v_show/id_XMTg5NTU4MjI0.html)

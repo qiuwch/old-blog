@@ -25,4 +25,11 @@ Optical flow dataset
 
 
 Object recognition
+
 * [Norb dataset](http://www.cs.nyu.edu/~ylclab/data/norb-v1.0/)
+
+
+Blog
+====
+- [Jonathan Harel](http://www.klab.caltech.edu/~harel/)
+- [Hou Xiaodi](http://www.klab.caltech.edu/~xhou/)

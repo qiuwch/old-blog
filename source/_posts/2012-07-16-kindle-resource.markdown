@@ -6,5 +6,5 @@ comments: true
 categories: kindle
 ---
 
-[计算机视觉经典论文](/attach/ComputerVision_k2opt.pdf)
-[GRE阅读](/attach/GRE_reading_36.pdf)
+- [计算机视觉经典论文](/attach/ComputerVision_k2opt.pdf)
+- [GRE阅读](/attach/GRE_reading_36.pdf)
