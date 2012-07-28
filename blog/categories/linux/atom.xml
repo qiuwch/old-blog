@@ -4,7 +4,7 @@
   <title><![CDATA[Category: linux | Review of AI]]></title>
   <link href="http://qiuwch.github.com/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-19T13:01:38+08:00</updated>
+  <updated>2012-07-28T20:12:09+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -31,6 +31,23 @@
 <h1>Git</h1>
 
 <p><a href="githowto.com">Git tutorial</a></p>
+
+<h1>Grub</h1>
+
+<p><a href="https://www.gnu.org/software/grub/manual/grub.html">Grub documentation</a></p>
+
+<p>Grub is just a bootloader program, like normal program, nothing special.</p>
+
+<ul>
+<li>Grub command</li>
+<li>Grub rescue mode</li>
+</ul>
+
+
+<p><a href="http://support.microsoft.com/kb/300415">diskpart utility</a></p>
+
+<p><a href="http://ubuntuforums.org/showthread.php?t=1696794">Microsoft Mouse Scroll Speed Bug</a>
+<a href="https://answers.launchpad.net/ubuntu/+question/9200">Link2</a></p>
 ]]></content>
   </entry>
   

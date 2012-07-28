@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-19T13:01:38+08:00</updated>
+  <updated>2012-07-28T20:12:09+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -12,6 +12,107 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to do review/survey]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/22/how-to-do-review-slash-survey/"/>
+    <updated>2012-07-22T16:11:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/22/how-to-do-review-slash-survey</id>
+    <content type="html"><![CDATA[<p>Actually, this post is about how to know the field you are working on.</p>
+
+<p>There are many resources, take &#8220;face recognition&#8221; as examples:</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paper list of face]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/22/paper-list-of-face/"/>
+    <updated>2012-07-22T13:49:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/22/paper-list-of-face</id>
+    <content type="html"><![CDATA[<p>找引用率靠前和性能高的，或者是自己认为有兴趣的</p>
+
+<ul>
+<li><p><a href="">Face Recognition Using Eigenfaces</a> Matthew A. Turk
+CVPR 91</p></li>
+<li><p><a href="">Learning visual similarity measures for comparing never seen objects</a> Eric Nowak
+CVPR 07</p></li>
+<li><p><a href="">Unsupervised joint alignment of complex images</a> Gray B. Huang
+ICCV 07</p></li>
+<li><p><a href="">LFW Results Using a Combined Nowak Plus MERL Recognizer</a> Gray B. Huang
+ECCV 08 Workshop</p></li>
+<li><p><a href="">Descriptor Based Methods in the wild</a> Lior Wolf
+ECCV 08 Workshop</p></li>
+<li><p><a href="">Multi-Region Probabilistic Histograms for Robust and Scalable Identity Inference</a> Conrad Sanderson
+ICB 09</p></li>
+<li><p><a href="">How far can you get with a modern face recognition test using only simple features</a> Nicolas Pinto
+CVPR 09</p></li>
+<li><p><a href="">Is that you? Metric Learning Approaches for Face Identification</a> Mattieu Guillaumin
+ICCV 09</p></li>
+<li><p><a href="">Multiple One-Shots for Utilizing Class Label Information</a> BMVC 09</p></li>
+<li><p><a href="">Similarity Scores based on Background Samples</a> Lior Wolf
+ACCV 09</p></li>
+<li><p><a href="">Attribute and Simile Classifiers for Face Verification</a> Neeraj Kumar
+ICCV 09</p></li>
+<li><p><a href="">Recognition of Faces in Unconstrained Environments: A Comparative Study</a> Javier Ruiz-del-Solar
+EURASIP Journal on Advances in Signal Processing</p></li>
+<li><p><a href="">Rectified Linear Units Improve Restricted Boltzmann Machines</a> Vinod Nair and Geoffrey E. Hinton
+ICML 10</p></li>
+<li><p><a href="">Face Recognition with Learning-based Descriptor</a> Zhimin Cao
+CVPR 10</p></li>
+<li><p><a href="">Cosine Similarity Metric Learning for Face Verification</a> Hieu V. Nguyen
+ACCV 10</p></li>
+<li><p><a href="">Beyond Simple Features: A Large-Scale Feature Search Approach to Unconstrained Face Recognition</a> Nicolas Pinto and David Cox
+FG 11</p></li>
+<li><p><a href="">Probabilistic Models for Inference About Identity</a> Peng Li
+TPAMI 12</p></li>
+<li><p><a href="">An Associate-Predict Model for Face Recognition</a> Qi Yin
+CVPR 11</p></li>
+<li><p><a href="">Leveraging Billions of Faces to Overcome Performance Barriers in Unconstrained Face Recognition</a> Yaniv Taigman and Lior Wolf
+ArXiv 11</p></li>
+<li><p><a href="">Face Verification Using the LARK Representation</a> Hae Jong Seo
+Trans on Information Forensics and Security 11</p></li>
+<li><p><a href="">Distance Metric Learning with Eigenvalue Optimization</a> Yiming Ying
+Journal of Machine Learning Research</p></li>
+<li><p><a href="">Large Scale Strongly Supervised Ensemble Metric Learning, with Applications to Face Verification and Retrieval</a> Chang Huang
+NEC Technical Report, 11</p></li>
+<li><p><a href="">Him-vs-Her Classifiers and Identity-Preserving Alignment for Face Verification</a> Thomas Berg
+BMVC 12</p></li>
+</ul>
+
+
+<h1>CVPR 2012  (14)</h1>
+
+<ul>
+<li><p><a href="">Face detection, pose estimation, and landmark localization in the wild</a> Xiangxin Zhu</p></li>
+<li><p><a href="">Face Alignment by Explicit Shape Regression</a> Xudong Cao</p></li>
+<li><p><a href="">Hierarchical Face Parsing via Deep Learning</a> Ping Luo</p></li>
+<li><p><a href="">Discriminant Image Filter Learning for Face Recognition with Local Binary Pattern Like Representation</a> Zhen Lei, Stan Li</p></li>
+<li><p><a href="">Hierarchical Representations for Face Verification with Convolutional Deep Belief Networks</a> Gray Huang
+Learning Hierachical Representations for Face Verification</p></li>
+<li><p><a href="">Memory Constrained Face Recognition</a> Ashish Kapoor</p></li>
+<li><p><a href="">Auto Face Re-Ranking By Mining the Web and Video Archives</a> Duy-Dinh Le</p></li>
+<li><p><a href="">Vector Array based Multi-view Face Detection with Compounded Exemplars</a> Kai Ma</p></li>
+<li><p><a href="">Feature-domain super-resolution framework for Gabor-based face and iris recognition</a> KIEN NGUYEN THANH</p></li>
+<li><p><a href="">Markov Weight Fields for Face Sketch Synthesis</a> Hao Zhou</p></li>
+<li><p><a href="">Color Constancy Using Faces</a> Simone Bianco</p></li>
+<li><p><a href="">Sparse Representation for Face Recognition based on Discriminatvie Low-Rank Dictionary Learning</a> Long Ma</p></li>
+<li><p><a href="">Low-Rank Matrix Recovery with Structural Incoherence for Robust Face Recognition</a> Chif-Fan Chen</p></li>
+<li><p><a href="">Image Sets Alignment for Video-based Face Recognition</a> Zhen Cui</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Programming notes]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/22/programming-notes/"/>
+    <updated>2012-07-22T10:48:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/22/programming-notes</id>
+    <content type="html"><![CDATA[<p><a href="http://www.learncpp.com/cpp-tutorial/79-the-stack-and-the-heap/">Stack and heap</a></p>
+
+<p><a href="http://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap">Stack and heap (from stackoverflow)</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[computer vision journal impact factor]]></title>
@@ -148,6 +249,23 @@ Saliency Detection by Multi-Task Sparsity Pursuit.pdf</p>
 <h1>Git</h1>
 
 <p><a href="githowto.com">Git tutorial</a></p>
+
+<h1>Grub</h1>
+
+<p><a href="https://www.gnu.org/software/grub/manual/grub.html">Grub documentation</a></p>
+
+<p>Grub is just a bootloader program, like normal program, nothing special.</p>
+
+<ul>
+<li>Grub command</li>
+<li>Grub rescue mode</li>
+</ul>
+
+
+<p><a href="http://support.microsoft.com/kb/300415">diskpart utility</a></p>
+
+<p><a href="http://ubuntuforums.org/showthread.php?t=1696794">Microsoft Mouse Scroll Speed Bug</a>
+<a href="https://answers.launchpad.net/ubuntu/+question/9200">Link2</a></p>
 ]]></content>
   </entry>
   
@@ -170,6 +288,7 @@ Saliency Detection by Multi-Task Sparsity Pursuit.pdf</p>
     <content type="html"><![CDATA[<ul>
 <li><a href="http://qiuwch.github.com/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></li>
 <li><a href="http://qiuwch.github.com/attach/GRE_reading_36.pdf">GRE阅读</a></li>
+<li><a href="http://qiuwch.github.com/attach/grimm.epub">Grimm Brother</a></li>
 </ul>
 
 ]]></content>
@@ -503,92 +622,6 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
     <content type="html"><![CDATA[<p>Just got one year membership of AAAI.</p>
 
 <p>This is because the popular online open course &#8220;Introduction to artificial intelligence&#8221; taught by <a href="author:peter_norvig">Peter Norvig</a> and <a href="author:sebastian_thurun">Sebastian Thurun</a>. Before the beginning of this course, I saw a post told that those students who rank 10% of this course will be give AAAI membership for reward. I just took this as a rumor and use this to encourage myself to study hard in this course. Now months after this course, when I thought this is a real rumor, I got a mail told me that I am given a one year membership. That&#8217;s really a good gift, lol.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reading list for july]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/29/reading-list-for-july/"/>
-    <updated>2012-06-29T10:19:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/29/reading-list-for-july</id>
-    <content type="html"><![CDATA[<h2>Book</h2>
-
-<ul>
-<li>David Marr - Vision</li>
-</ul>
-
-
-<h1>Paper</h1>
-
-<h2>McLab paper</h2>
-
-<ul>
-<li>Skim mclab paper</li>
-</ul>
-
-
-<h2>Face recognition</h2>
-
-<ul>
-<li>Thesis paper of Shan [Done]</li>
-<li>Random projection tree</li>
-<li>Deep learning for face parsing</li>
-</ul>
-
-
-<h2>Machine Learning</h2>
-
-<ul>
-<li>High performance neural networks for visual object classification [2011][Technical report][Skimmed]</li>
-<li>Selecting receptive fields in deep learning [Anrew Ng][Finish part1]</li>
-<li>Building high-level features using large scale unsupervised learning</li>
-<li>Learning the structure of manifolds using random projections</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[News:google deep learning]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/27/news-google-deep-learning/"/>
-    <updated>2012-06-27T15:43:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/27/news-google-deep-learning</id>
-    <content type="html"><![CDATA[<p>google use deep learning to develop a neural network which can be used to identify cat from youtube video.</p>
-
-<p><a href="http://www.wired.com/wiredscience/2012/06/google-x-neural-network/">link</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Face recognition]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/26/face-recognition/"/>
-    <updated>2012-06-26T21:05:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/26/face-recognition</id>
-    <content type="html"><![CDATA[<p>Fundamental question can also be fundamental problem.</p>
-
-<p>Theoretical author</p>
-
-<ul>
-<li><a href="author:pawan_sinha">Pawan Sinha</a></li>
-<li><a href="author:thomaso_poggio">Thomaso Poggio</a></li>
-</ul>
-
-
-<p>Do human treat face and object recognition the same problem?
-Can human explictly model the 3d model of face.</p>
-
-<p>Experimental result</p>
-
-<ul>
-<li><a href="paper:Attribute%20and%20Simile%20Classifiers%20for%20Face%20Verification">Human performance</a></li>
-</ul>
-
-
-<p><a href="%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E7%90%86%E8%AE%BA%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6_%E5%B1%B1%E4%B8%96%E5%85%89">Chinese survey</a></p>
-
-<p><a href="http://www.mathworks.com/matlabcentral/fileexchange/26523-the-inface-toolbox-v2-0-for-illumination-invariant-face-recognition">Matlab illumination toolbox</a></p>
-
-<p><a href="http://www.cs.colostate.edu/evalfacerec/index10.php">Evaluation of Face Recognition Algorithms by CSU</a></p>
 ]]></content>
   </entry>
   
