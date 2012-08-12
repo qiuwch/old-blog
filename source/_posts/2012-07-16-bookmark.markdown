@@ -1,0 +1,12 @@
+---
+layout: post
+title: "bookmark"
+date: 2012-07-16 20:15
+comments: true
+categories: 
+---
+[东京铁塔](http://zh.wikipedia.org/wiki/%E4%B8%9C%E4%BA%AC%E9%93%81%E5%A1%94)
+
+[東京晴空塔](http://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%A9%BA%E6%A8%B9)
+
+[哈里發塔](http://zh.wikipedia.org/wiki/%E5%93%88%E9%87%8C%E7%99%BC%E5%A1%94)

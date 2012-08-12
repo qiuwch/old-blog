@@ -22,3 +22,6 @@ Experimental result
 
 [Chinese survey](人脸识别理论与应用研究_山世光)
 
+[Matlab illumination toolbox](http://www.mathworks.com/matlabcentral/fileexchange/26523-the-inface-toolbox-v2-0-for-illumination-invariant-face-recognition)
+
+[Evaluation of Face Recognition Algorithms by CSU](http://www.cs.colostate.edu/evalfacerec/index10.php)

@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Sandbox"
+date: 2012-07-15 16:32
+comments: true
+categories: 
+---
+
+This is a post to test the functionality of octopress.
+
+
+[Documentation of octopress](http://octopress.org/docs/)
+
+
+Images
+------
+Image tag
+
+	{% img /images/CCT/CCT1ComputersFreeWill.jpg TestImage.png %}
+
+{% img /images/SandboxImage.gif This is a small image %}
+
+
+Equations
+---------
+
+[Octopress configuration to support math](http://greglus.com/blog/2011/11/29/integrate-MathJax-LaTeX-and-MathML-Markup-in-Octopress/)
+
+This is the simplest way I found.
+
+
+This is an equation
+
+<div markdown="0">
+
+\[ 
+x^2 + y^2 = z^2 
+\]
+</div>
