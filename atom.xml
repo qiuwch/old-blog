@@ -4,7 +4,7 @@
   <title><![CDATA[Review of AI]]></title>
   <link href="http://qiuwch.github.com/atom.xml" rel="self"/>
   <link href="http://qiuwch.github.com/"/>
-  <updated>2012-07-09T20:55:06+08:00</updated>
+  <updated>2012-08-12T13:55:41+08:00</updated>
   <id>http://qiuwch.github.com/</id>
   <author>
     <name><![CDATA[Weichao Qiu]]></name>
@@ -12,6 +12,300 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[computer vision journal impact factor]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/18/computer-vision-journal-impact-factor/"/>
+    <updated>2012-07-18T15:11:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/18/computer-vision-journal-impact-factor</id>
+    <content type="html"><![CDATA[<p>Data from <a href="http://admin-apps.webofknowledge.com/JCR/JCR?SID=4Eakj3A%40ln6KkB3EKiG">Link</a></p>
+
+<p>Format: Journal Name | Impact Factor | 5-Year Impact Factor</p>
+
+<ul>
+<li>IJPR 0.624 0.707</li>
+<li>PR 2.292 3.172</li>
+<li>PR Letter 1.034 1.724</li>
+<li>PAMI 4.908 6.085</li>
+<li>IJCV 3.741 5.428</li>
+<li>CVIU 1.34 2.485</li>
+<li>TIP 3.042 3.770</li>
+<li>Neural Computing Application 0.699 0.684</li>
+<li>Neural Computation 1.884 2.521</li>
+<li>Trends in Cognitive Sciences 12.586 14.857</li>
+<li>Journal of Vision  3.376 3.646</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Saliency resource]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/18/saliency-resource/"/>
+    <updated>2012-07-18T14:06:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/18/saliency-resource</id>
+    <content type="html"><![CDATA[<p>1、 MSRA dataset</p>
+
+<p>Ground truth is boundary</p>
+
+<p><a href="http://ivrg.epfl.ch/supplementary_material/RK_CVPR09/">Link</a></p>
+
+<p>2、 Bruce dataset</p>
+
+<p>人眼数据得到，但数据非常杂乱，没有类的概念</p>
+
+<p><a href="http://www-sop.inria.fr/members/Neil.Bruce/">Link</a></p>
+
+<p>3、 MIT dataset</p>
+
+<p><a href="http://people.csail.mit.edu/tjudd/WherePeopleLook/index.html">Link</a></p>
+
+<p>T. Judd, K. Ehinger, F. Durand, and A. Torralba, “Learning to predict where humans look,” in IEEE International Conference on Computer Vision, 2009</p>
+
+<p>4、 Fifa dataset</p>
+
+<p>有关于人脸saliency的数据集</p>
+
+<p><a href="http://papers.klab.caltech.edu/334/">Link</a></p>
+
+<p>M. Cerf, J. Harel, W. Einhauser, and C. Koch, “Predicting human gaze using low-level saliency combined with face detection,” in Advances in Neural Information Processing Systems, 2008, pp. 241-248.</p>
+
+<p>给的链接有代码，后两个参考文献里面有链接
+Saliency Detection by Multi-Task Sparsity Pursuit.pdf</p>
+
+<p>5、 Database for Saliency Detection</p>
+
+<p><a href="http://www.cim.mcgill.ca/~lijian/database.htm">Link</a></p>
+
+<p><em>three datasets (FiFa, MIT and Bruce datasets)</em></p>
+
+<p>这篇参考文献的实验部分有详细介绍，包括很多算法的源代码链接</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[h-index]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/18/h-index/"/>
+    <updated>2012-07-18T09:10:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/18/h-index</id>
+    <content type="html"><![CDATA[<p>从一则微博说起</p>
+
+<p>@徐涵W3China  ： 全球计算机科学家H-index排名前600（http://t.cn/hBzFxN），看看都有谁？目前H-index最高的中国人是@张宏江，名列26。H-index是一种按论文贡献（数量与质量相结合）评价研究者的指标，目前微软学术搜索和Artnerminer也都支持h-index查询。要能按条件给出排序就更好了。</p>
+
+<p>h-index要综合看数量和质量，这样对于没数量的其实很吃亏，比如Turing就不在这个列表里</p>
+
+<p>ps: 这个列表有计算错误吧，国内学校的只有一个Andrew Yao。嗯，这是计算错误，一定是这样的~</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[bookmark]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/bookmark/"/>
+    <updated>2012-07-16T20:15:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/bookmark</id>
+    <content type="html"><![CDATA[<p><a href="http://zh.wikipedia.org/wiki/%E4%B8%9C%E4%BA%AC%E9%93%81%E5%A1%94">东京铁塔</a></p>
+
+<p><a href="http://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%A9%BA%E6%A8%B9">東京晴空塔</a></p>
+
+<p><a href="http://zh.wikipedia.org/wiki/%E5%93%88%E9%87%8C%E7%99%BC%E5%A1%94">哈里發塔</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Better relaxation]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/better-relaxation/"/>
+    <updated>2012-07-16T19:07:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/better-relaxation</id>
+    <content type="html"><![CDATA[<p>I am trying to find better way of ralaxation than weibo and renren for many months.</p>
+
+<ul>
+<li>yinyuetai</li>
+<li>quora</li>
+<li>douban</li>
+<li>google reader</li>
+<li>journal of vision</li>
+<li>twitter</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linux tips]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/linux-tips/"/>
+    <updated>2012-07-16T14:31:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/linux-tips</id>
+    <content type="html"><![CDATA[<p><a href="http://www.dutor.net/index.php/2010/10/toolkits-xclip-x-clipboard/">Xclip与Clipboard的区别</a></p>
+
+<p><a href="http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/">Use github to manage dotfiles</a></p>
+
+<p><a href="http://planet.linuxdeepin.com/2012/03/02/deepin-scrot-2-0-video-and-install-in-ubuntu/">Linux截图工具- scrot</a></p>
+
+<h1>emacs</h1>
+
+<p><a href="https://github.com/dimitri/el-get">el-get</a></p>
+
+<h1>Git</h1>
+
+<p><a href="githowto.com">Git tutorial</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ted list]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/ted-list/"/>
+    <updated>2012-07-16T12:26:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/ted-list</id>
+    <content type="html"><![CDATA[<p><a href="http://v.youku.com/v_show/id_XNDE1NjQ5MzUy.html">James Cameron:&lt;阿凡达>之前的好奇小男孩</a></p>
+
+<p>Failure is an option, but fear is not.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kindle resource]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/kindle-resource/"/>
+    <updated>2012-07-16T10:19:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/kindle-resource</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://qiuwch.github.com/attach/ComputerVision_k2opt.pdf">计算机视觉经典论文</a></li>
+<li><a href="http://qiuwch.github.com/attach/GRE_reading_36.pdf">GRE阅读</a></li>
+<li><a href="http://qiuwch.github.com/attach/s87d.mobi">Dracula</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sandbox]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/15/sandbox/"/>
+    <updated>2012-07-15T16:32:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/15/sandbox</id>
+    <content type="html"><![CDATA[<p>This is a post to test the functionality of octopress.</p>
+
+<p><a href="http://octopress.org/docs/">Documentation of octopress</a></p>
+
+<h2>Images</h2>
+
+<p>Image tag</p>
+
+<pre><code>&lt;img src="http://qiuwch.github.com/images/CCT/CCT1ComputersFreeWill.jpg" title="TestImage.png" &gt;
+</code></pre>
+
+<p><img src="http://qiuwch.github.com/images/SandboxImage.gif" title="This is a small image" ></p>
+
+<h2>Equations</h2>
+
+<p><a href="http://greglus.com/blog/2011/11/29/integrate-MathJax-LaTeX-and-MathML-Markup-in-Octopress/">Octopress configuration to support math</a></p>
+
+<p>This is the simplest way I found.</p>
+
+<p>This is an equation</p>
+
+<div markdown="0">
+
+\[ 
+x^2 + y^2 = z^2 
+\]
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paper reading]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/14/paper-reading/"/>
+    <updated>2012-07-14T19:41:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/14/paper-reading</id>
+    <content type="html"><![CDATA[<h1>July.14</h1>
+
+<pre><code>Fixations on low-resolution images
+</code></pre>
+
+<p>Are these fixations likely to land at the same locations as the actual objects of interest in the high-
+resolution images?</p>
+
+<p>saccade和fixation的区别是什么？</p>
+
+<p>能否使用eye fixation的原理做快速的物体检测</p>
+
+<p>center bias的现象是否和中央感受野的密度比较大有关系？</p>
+
+<pre><code>TOP-DOWN CONTROL OF VISUAL ATTENTION IN OBJECT DETECTION
+</code></pre>
+
+<h1>July.16</h1>
+
+<pre><code>Face Recognition with Local Binary Patterns
+</code></pre>
+
+<ul>
+<li>small regions from which lbp histograms are extracted</li>
+<li>use nearest neighbor classifier</li>
+<li>Chi-square as dissimilarity measure</li>
+</ul>
+
+
+<p>original LBP, introduced by Ojala et al. , is a means of texture description</p>
+
+<p>uniform pattern</p>
+
+<h2>three levels of representation</h2>
+
+<ul>
+<li>pixel level</li>
+<li>patch level</li>
+<li>holistic level</li>
+</ul>
+
+
+<p>three dissimilarity measurements</p>
+
+<h2>parameters</h2>
+
+<pre><code>Global Contrast based Salient Region Detection
+</code></pre>
+
+<p>Saliency的检测方法，不是使用saliency进行物体检测</p>
+
+<pre><code>Computational versus Psychophysical Bottom-Up Image Saliency:A Comparative Evaluation Study
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[纪录片]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/14/ji-lu-pian/"/>
+    <updated>2012-07-14T19:33:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/14/ji-lu-pian</id>
+    <content type="html"><![CDATA[<p><a href="http://tv.sohu.com/20120711/n347902762.shtml">纪录片:金钱一代 关于中国的巨富阶层的调查纪录片</a></p>
+
+<p>远大集团-张跃</p>
+
+<p>中国经济发展的内在动力在哪里，中国的经济发展是否会硬着陆？</p>
+
+<p>是出口，科技发展，还是资源再分配。</p>
+
+<p>村子理论，村子里的人要想有钱，有三种办法，一种是自己种更多的粮食，一种是抢别人的，一种是做生意。</p>
+
+<p>第一种是科技发展，第二种是战争，第三种是出口贸易。</p>
+
+<p>内部的资源再分配过程可以推动GDP的增长，产生了交易行为。</p>
+
+<ul>
+<li>GDP是怎么计算的</li>
+</ul>
+
+
+<p>GDP, the measure of an economy adopted by the United States in 1991</p>
+
+<p>The total market values of goods and services produced by workers and capital within a nation&#8217;s borders during a given period.</p>
+
+<p>(from Wolfram alpha)</p>
+
+<p><a href="http://v.youku.com/v_show/id_XMTg5NTU4MjI0.html">[道兰][NHK纪录片]IT世代-改变未来的年轻一代</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Intro to biological vision]]></title>
@@ -181,10 +475,14 @@ Cygwin is good when your app absolutely needs a POSIX environment to run - it is
 <p>Basic requirement for apt-cyg to work is<br/>
 <code>setup.exe -q -P  wget,tar,qawk,bzip2,subversion,vim</code></p>
 
-<p>plus
-* git
-* openssh
-* rsync</p>
+<p>plus</p>
+
+<ul>
+<li>git</li>
+<li>openssh</li>
+<li>rsync</li>
+</ul>
+
 
 <h2>Openssh config</h2>
 
@@ -288,309 +586,10 @@ Can human explictly model the 3d model of face.</p>
 
 
 <p><a href="%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E7%90%86%E8%AE%BA%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6_%E5%B1%B1%E4%B8%96%E5%85%89">Chinese survey</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reading note for vision (david marr)]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/25/reading-note-for-vision-david-marr/"/>
-    <updated>2012-06-25T22:38:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/25/reading-note-for-vision-david-marr</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Interactive python gui programming]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/25/interactive-python-gui-programming/"/>
-    <updated>2012-06-25T21:37:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/25/interactive-python-gui-programming</id>
-    <content type="html"><![CDATA[<p>I want an interactive gui programming environment for a long time.
-Once I tried python-qt, but this seems not very friendly and elegant.</p>
 
-<p>Today I want to do some computer vision experiment, and try to do some spotlight effect. After googling for a while, I found this stackoverflow post <a href="http://stackoverflow.com/questions/115495/is-python-any-good-for-gui-development">Is Python any good for GUI development?</a>. wxPython seems more simple and elegant than python-qt.</p>
+<p><a href="http://www.mathworks.com/matlabcentral/fileexchange/26523-the-inface-toolbox-v2-0-for-illumination-invariant-face-recognition">Matlab illumination toolbox</a></p>
 
-<p>And some demos and tutorials are available. eg:</p>
-
-<ul>
-<li><a href="http://zetcode.com/wxpython/">wxPython tutorial</a></li>
-<li><a href="http://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/">wxPython demos and samples</a></li>
-</ul>
-
-
-<p>Which is helpful to get a brief view and have a quick start.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Track lost object]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/23/track-lost-object/"/>
-    <updated>2012-06-23T23:21:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/23/track-lost-object</id>
-    <content type="html"><![CDATA[<p>又被盗一辆自行车,
-对于这种情况应该能够有防盗器解决这种问题</p>
-
-<p>主动的方案例如GPS基站，可以提供准确的位置，但是必须时刻保持待机状态，除非像汽车电瓶供电这种特殊状态，其他情况下很难保证长时间的使用。可以实用的方案可能只有被动定位，在物体丢失时，为了追踪被盗物体，物体主人愿意花比较高的代价。因此如果才从租赁搜索器材的方式是可行的。类似定向越野的方式即可。不是rfid是否能满足这种使用需求。</p>
-
-<p>或者也可以通过平时休眠，通过主动唤醒的方式进行追踪。</p>
-
-<p>产品应用范围包括走失小孩的追踪，手机的追踪，被盗自行车的追踪。危险设备，例如枪支的追踪等。</p>
-
-<p>目前淘宝上的产品主要是使用GPS的方式追踪，对于电量的问题都无法解决。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[C++ memory leak problem]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem/"/>
-    <updated>2012-06-18T16:02:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/18/c-plus-plus-memory-leak-problem</id>
-    <content type="html"><![CDATA[<p>There is a trouble puzzled me for a long time.</p>
-
-<p>I implemented a simple matrix class.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="k">template</span><span class="o">&lt;</span><span class="k">class</span> <span class="nc">T</span><span class="o">&gt;</span>
-</span><span class='line'><span class="k">class</span> <span class="nc">matrix_t</span>
-</span><span class='line'><span class="p">{</span>
-</span><span class='line'><span class="k">public</span><span class="o">:</span>
-</span><span class='line'>  <span class="n">matrix_t</span><span class="p">(</span><span class="kt">int</span> <span class="n">rows</span><span class="p">,</span> <span class="kt">int</span> <span class="n">cols</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>  <span class="p">{</span>
-</span><span class='line'>      <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;construct.&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">width_</span> <span class="o">=</span> <span class="n">cols</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">height_</span> <span class="o">=</span> <span class="n">rows</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">len_</span> <span class="o">=</span> <span class="n">cols</span> <span class="o">*</span> <span class="n">rows</span><span class="p">;</span>
-</span><span class='line'>      <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">[</span><span class="n">len_</span><span class="p">];</span>
-</span><span class='line'>      <span class="n">memset</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">T</span><span class="p">)</span> <span class="o">*</span> <span class="n">len_</span><span class="p">);</span> <span class="c1">// Important!</span>
-</span><span class='line'>      <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
-</span><span class='line'>      <span class="p">{</span>
-</span><span class='line'>          <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">len_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-</span><span class='line'>      <span class="p">}</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'><span class="p">};</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>which is really simple and nothing special (maybo not elegant at all :P).</p>
-
-<p>But when I try to use, I found when I use syntax like:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matirx_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>always cause me some trouble like segmentation fault. Soon I realized I forget to add a copy constructor and because I use dynamic memory allocation. The destructor will try to free the already deleted pointer.</p>
-
-<p>when I finished a copy constructor, more problem came out.</p>
-
-<p>When I try</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="n">matrix_t</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">matrix_t</span> <span class="n">b</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
-</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This causes me the same problem as above. After some study, I knew that, copy constructor is different from =operator, they have different usage. Please refer this <a href="http://www.learncpp.com/cpp-tutorial/911-the-copy-constructor-and-overloading-the-assignment-operator/">Copy Constructor and assignment operator</a>
-for detail explanation.</p>
-
-<p>I will update the full implementation of the simple matrix class, when I figure out how to post code using this blog system.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[how to use valgrind]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind/"/>
-    <updated>2012-06-18T10:45:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/18/how-to-use-valgrind</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[project report]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/project-report/"/>
-    <updated>2012-06-17T19:39:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/project-report</id>
-    <content type="html"><![CDATA[<p>meeno
-短信便签</p>
-
-<p>自动短信筛选
-号码和内容</p>
-
-<p>micro starwar</p>
-
-<p>Tuudo
-滑动
-any.do</p>
-
-<p>wifile
-能够建立热点
-没有客户端
-整块的背景图片</p>
-
-<p>Check of Fuubo
-速度太慢</p>
-
-<p>图片墙
-网速，版权
-核心问题
-PM要懂技术
-轻博客</p>
-
-<p>Euuro</p>
-
-<p>intra分享</p>
-
-<p>kong miao</p>
-
-<p>nap time</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[about recent work]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/about-recent-work/"/>
-    <updated>2012-06-17T03:30:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/about-recent-work</id>
-    <content type="html"><![CDATA[<h2>关于近期工作的吐槽</h2>
-
-<p>转眼到实验室快两年了，做的事情有好几样，却没有特别让自己满意的</p>
-
-<ul>
-<li>motion segmentation</li>
-<li>人脸识别</li>
-<li>data skeleton</li>
-</ul>
-
-
-<p>倒是基础知识长进了不说，学了Machine Learning, AI, PGM几门课</p>
-
-<p>晚上和bai为了暑假课程的事情争了很久，他说得有几点我是认同的</p>
-
-<ul>
-<li>想做的太大太远</li>
-<li>对于研究生时间不允许，要尽快出成果</li>
-</ul>
-
-
-<h2>未来的时间安排</h2>
-
-<p>刚进实验室的时候总还觉得时间很多，可是转眼研究生一年级就快结束了．</p>
-
-<p>下学期开学以后马上要忙的事是研究生的开题和12月的GRE．开题如果还拿不出一个很明确的方向的话，到时候又会非常的被动．</p>
-
-<p>因此暑假的工作显得尤其重要，除了抽空背背单词，其他的时间应该都是在想idea，做实验，灌水．</p>
-
-<p>其实计算机视觉远没有当初想的那么神秘和神圣，真想做科研还是去做认知科学的好．可是就如bai说的，现在根本还没有那个资本．连bai这样的学者都不能满意的学生，又如何去顶级的学术机构做科研的．不如花这两个月的时间，为自己积累些说话的资本，后期的发展也会顺一些．</p>
-
-<p>ICPR没中其实完全没有出乎意料，临时赶出来的第一稿的draft要是能中才意外了．不过从实验室中的三篇来看，似乎创新性都不高，灌水并没有想象中的困难．</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Paper list for mclab hust]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust/"/>
-    <updated>2012-06-17T00:34:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/paper-list-for-mclab-hust</id>
-    <content type="html"><![CDATA[<ul>
-<li><a href="">Unsupervised Metric Fusion by Cross Diffusion</a> Bo Wang</li>
-<li><a href="">Fan Shape Model for Object Detection</a> Xinggang Wang</li>
-<li><a href="">Detecting Texts of Arbitrary Orientations in Natural Images</a> Cong Yao</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Build the foundation of computer vision step by step]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step/"/>
-    <updated>2012-06-17T00:28:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/17/build-the-foundation-of-computer-vision-step-by-step</id>
-    <content type="html"><![CDATA[<p>Xiang said my goal for computer vision is too ambitious and current research of cognitive science is useless for computer vision.
-I strongly disagree, and will try my best to build my knowledge base step by step here.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Useful dataset for computer vision researcher]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher/"/>
-    <updated>2012-06-16T23:51:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/16/useful-dataset-for-computer-vision-researcher</id>
-    <content type="html"><![CDATA[<h2>Shape dataset</h2>
-
-<ul>
-<li><a href="http://visionlab.uta.edu/shape_data.htm">MPEG7 shape</a></li>
-</ul>
-
-
-<h2>Face dataset</h2>
-
-<ul>
-<li><a href="http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html">At&amp;T face image</a></li>
-</ul>
-
-
-<h2>Natural dataset</h2>
-
-<ul>
-<li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Caltech 101</a></li>
-<li><a href="www.vis.uky.edu/~stewe/ukbench/">Nister and Stewenius (N-S) dataset</a></li>
-</ul>
-
-
-<h2>Optical flow dataset</h2>
-
-<ul>
-<li><a href="http://vision.middlebury.edu/flow/">Middle burry</a></li>
-</ul>
-
-
-<p>Object recognition
-* <a href="http://www.cs.nyu.edu/~ylclab/data/norb-v1.0/">Norb dataset</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Research of Computer Vision]]></title>
-    <link href="http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision/"/>
-    <updated>2012-06-15T23:13:00+08:00</updated>
-    <id>http://qiuwch.github.com/blog/2012/06/15/research-of-computer-vision</id>
-    <content type="html"><![CDATA[<p>Computer Vision is a too big topic for me to talk about. Here I just want to share what I collected these two years when surfing this research field.</p>
-
-<p>Computer vision is always treated as the inverse problem of graphics. This is because the task of computer vision is to infer the meaning of the scene from the input image which is opposite to the graphics.</p>
-
-<p>This field is widely studied because of the unlimited potential of applications. Already widely used computer vision algorithms including</p>
-
-<ul>
-<li>Face detection</li>
-<li>Visual image search</li>
-<li>Image stitching</li>
-</ul>
-
+<p><a href="http://www.cs.colostate.edu/evalfacerec/index10.php">Evaluation of Face Recognition Algorithms by CSU</a></p>
 ]]></content>
   </entry>
   

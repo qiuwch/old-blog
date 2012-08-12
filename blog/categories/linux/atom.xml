@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: linux | Review of AI]]></title>
+  <link href="http://qiuwch.github.com/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://qiuwch.github.com/"/>
+  <updated>2012-08-12T13:55:41+08:00</updated>
+  <id>http://qiuwch.github.com/</id>
+  <author>
+    <name><![CDATA[Weichao Qiu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Linux tips]]></title>
+    <link href="http://qiuwch.github.com/blog/2012/07/16/linux-tips/"/>
+    <updated>2012-07-16T14:31:00+08:00</updated>
+    <id>http://qiuwch.github.com/blog/2012/07/16/linux-tips</id>
+    <content type="html"><![CDATA[<p><a href="http://www.dutor.net/index.php/2010/10/toolkits-xclip-x-clipboard/">Xclip与Clipboard的区别</a></p>
+
+<p><a href="http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/">Use github to manage dotfiles</a></p>
+
+<p><a href="http://planet.linuxdeepin.com/2012/03/02/deepin-scrot-2-0-video-and-install-in-ubuntu/">Linux截图工具- scrot</a></p>
+
+<h1>emacs</h1>
+
+<p><a href="https://github.com/dimitri/el-get">el-get</a></p>
+
+<h1>Git</h1>
+
+<p><a href="githowto.com">Git tutorial</a></p>
+]]></content>
+  </entry>
+  
+</feed>
